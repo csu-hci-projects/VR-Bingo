@@ -1,0 +1,571 @@
+﻿Log file open, 03/25/20 10:38:24
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine without a game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: Loading recent project file: ../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/VrBingo.uproject
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.537939
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.132s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.03.25-16.38.24:330][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.25-16.38.24:330][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.25-16.38.24:344][  0]LogHAL: Display: Platform has ~ 32 GB [34283347968 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.25-16.38.24:344][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.03.25-16.38.24:344][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.25-16.38.24:345][  0]LogInit: Computer: THE-STORM-TROOP
+[2020.03.25-16.38.24:345][  0]LogInit: User: owner
+[2020.03.25-16.38.24:345][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.03.25-16.38.24:345][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.25-16.38.24:345][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.03.25-16.38.24:345][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.25-16.38.24:345][  0]LogMemory: Process Physical Memory: 101.65 MB used, 101.65 MB peak
+[2020.03.25-16.38.24:345][  0]LogMemory: Process Virtual Memory: 92.93 MB used, 92.93 MB peak
+[2020.03.25-16.38.24:345][  0]LogMemory: Physical Memory: 7195.61 MB used,  25499.54 MB free, 32695.15 MB total
+[2020.03.25-16.38.24:345][  0]LogMemory: Virtual Memory: 4663.40 MB used,  25499.54 MB free, 134217728.00 MB total
+[2020.03.25-16.38.24:383][  0]LogInit: Using OS detected language (en-US).
+[2020.03.25-16.38.24:383][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.25-16.38.24:384][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.25-16.38.24:705][  0]LogStreaming: Display: Took  0.323s to InitEngineTextLocalization.
+[2020.03.25-16.38.24:705][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.25-16.38.24:741][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.25-16.38.24:741][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.25-16.38.25:575][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.25-16.38.25:640][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2020.03.25-16.38.25:640][  0]LogD3D11RHI:       8079/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.03.25-16.38.25:642][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.25-16.38.25:642][  0]LogD3D11RHI:       0/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.25-16.38.25:642][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.25-16.38.25:651][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.25-16.38.25:651][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.25-16.38.25:651][  0]LogWindows: EnumDisplayDevices:
+[2020.03.25-16.38.25:651][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2020.03.25-16.38.25:651][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2020.03.25-16.38.25:651][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.03.25-16.38.25:652][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.03.25-16.38.25:652][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.03.25-16.38.25:652][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2020.03.25-16.38.25:652][  0]LogD3D11RHI:   Driver Version: 442.74 (internal:26.21.14.4274, unified:442.74)
+[2020.03.25-16.38.25:652][  0]LogD3D11RHI:      Driver Date: 3-13-2020
+[2020.03.25-16.38.25:652][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2020.03.25-16.38.25:700][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.25-16.38.25:727][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.25-16.38.25:731][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Intermediate/Shaders/WorkingDirectory/23756/).
+[2020.03.25-16.38.25:731][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/owner/AppData/Local/Temp/UnrealShaderWorkingDir/0A6A3B214EF8FB2B3AED59802EE0E072/'.
+[2020.03.25-16.38.25:979][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.03.25-16.38.25:993][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.03.25-16.38.26:006][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.03.25-16.38.26:020][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.03.25-16.38.26:033][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.03.25-16.38.26:047][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.03.25-16.38.26:060][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.03.25-16.38.26:074][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.03.25-16.38.26:080][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:163][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:163][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:164][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.03.25-16.38.26:225][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.03.25-16.38.26:225][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.03.25-16.38.26:249][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.03.25-16.38.26:249][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.03.25-16.38.26:262][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.03.25-16.38.26:275][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.03.25-16.38.26:289][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.03.25-16.38.26:303][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.03.25-16.38.26:312][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.03.25-16.38.26:312][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.25-16.38.26:357][  0]LogXGEController: Cleaning working directory: C:/Users/owner/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.25-16.38.26:357][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.25-16.38.26:357][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.25-16.38.26:357][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.25-16.38.27:172][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.25-16.38.27:218][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.03.25-16.38.27:218][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.03.25-16.38.27:219][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.25-16.38.27:219][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.25-16.38.27:219][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.25-16.38.27:219][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.25-16.38.27:234][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.25-16.38.27:247][  0]LogDerivedDataCache: Using Local data cache path C:/Users/owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.25-16.38.27:247][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.25-16.38.27:247][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.25-16.38.27:263][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.25-16.38.27:264][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.25-16.38.27:265][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.25-16.38.27:334][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2020.03.25-16.38.27:649][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.25-16.38.27:693][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.03.25-16.38.27:696][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.03.25-16.38.27:696][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.25-16.38.27:696][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.25-16.38.27:696][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.03.25-16.38.27:778][  0]LogNetVersion: VrBingo 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3676908297)
+[2020.03.25-16.38.28:245][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.114440 seconds
+[2020.03.25-16.38.28:252][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.03.25-16.38.28:252][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2020.03.25-16.38.28:252][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.25-16.38.28:993][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.25-16.38.29:008][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.25-16.38.29:145][  0]SourceControl: Source control is disabled
+[2020.03.25-16.38.29:145][  0]SourceControl: Source control is disabled
+[2020.03.25-16.38.29:146][  0]SourceControl: Source control is disabled
+[2020.03.25-16.38.29:147][  0]SourceControl: Source control is disabled
+[2020.03.25-16.38.29:316][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.25-16.38.29:588][  0]LogOcInput: OculusInput pre-init called
+[2020.03.25-16.38.29:643][  0]LogEngine: Initializing Engine...
+[2020.03.25-16.38.29:727][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BC3D2433
+[2020.03.25-16.38.29:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.03.25-16.38.29:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.25-16.38.29:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.03.25-16.38.29:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.25-16.38.29:913][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.25-16.38.29:922][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.25-16.38.30:025][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-16.38.30:040][  0]LogInit: FAudioDevice initialized.
+[2020.03.25-16.38.30:040][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.25-16.38.30:130][  0]LogDerivedDataCache: Saved boot cache 0.09s 72MB C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.03.25-16.38.30:136][  0]LogInit: Texture streaming: Enabled
+[2020.03.25-16.38.30:151][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.25-16.38.30:170][  0]LogInit: Transaction tracking system initialized
+[2020.03.25-16.38.30:185][  0]BlueprintLog: New page: Editor Load
+[2020.03.25-16.38.30:244][  0]LocalizationService: Localization service is disabled
+[2020.03.25-16.38.30:502][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.25-16.38.30:502][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.25-16.38.30:502][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.03.25-16.38.30:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.03.25-16.38.30:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.25-16.38.30:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.03.25-16.38.30:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.25-16.38.30:621][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/' took 0.01s
+[2020.03.25-16.38.30:621][  0]SourceControl: Source control is disabled
+[2020.03.25-16.38.30:621][  0]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.38.30:622][  0]LightingResults: New page: Lighting Build
+[2020.03.25-16.38.30:623][  0]MapCheck: New page: Map Check
+[2020.03.25-16.38.30:624][  0]LightingResults: New page: Lighting Build
+[2020.03.25-16.38.30:747][  0]LogAIModule: Creating AISystem for world StartupMap
+[2020.03.25-16.38.30:753][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.38.30:785][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.38.30:881][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 94.866ms to complete.
+[2020.03.25-16.38.30:881][  0]LogFileHelpers: Loading map 'StartupMap' took 0.260
+[2020.03.25-16.38.31:000][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.31:007][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.31:014][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.31:021][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.31:026][  0]LogCollectionManager: Loaded 0 collections in 0.000910 seconds
+[2020.03.25-16.38.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/Collections/' took 0.01s
+[2020.03.25-16.38.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/Developers/owner/Collections/' took 0.01s
+[2020.03.25-16.38.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/Collections/' took 0.01s
+[2020.03.25-16.38.31:068][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.25-16.38.31:077][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2572 classes and 603 folders.
+[2020.03.25-16.38.31:082][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.25-16.38.31:127][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.25-16.38.31:136][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.03.25-16.38.31:146][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.25-16.38.31:150][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.25-16.38.31:152][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.25-16.38.31:205][  0]LogRenderer: Reallocating scene render targets to support 1528x576 Format 26 NumSamples 1 (Frame:1).
+[2020.03.25-16.38.31:333][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.25-16.38.31:333][  0]LogLoad: (Engine Initialization) Total time: 9.18 seconds
+[2020.03.25-16.38.31:333][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.25-16.38.31:374][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.25-16.38.31:389][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.25-16.38.31:413][  1]LogAssetRegistry: Asset discovery search completed in 4.1002 seconds
+[2020.03.25-16.38.31:414][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.03.25-16.38.31:414][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2020.03.25-16.38.35:401][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.38.37:760][728]LogTemp: Repeating last play command: VR Preview
+[2020.03.25-16.38.37:776][728]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap'
+[2020.03.25-16.38.37:776][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.25-16.38.37:788][728]PIE: New page: PIE session: StartupMap (Mar 25, 2020, 4:38:37 AM)
+[2020.03.25-16.38.37:788][728]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2020.03.25-16.38.37:793][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004683s)
+[2020.03.25-16.38.37:793][728]LogAIModule: Creating AISystem for world StartupMap
+[2020.03.25-16.38.37:794][728]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2020.03.25-16.38.37:794][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.005481s)
+[2020.03.25-16.38.37:944][728]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-16.38.37:952][728]LogInit: FAudioDevice initialized.
+[2020.03.25-16.38.37:964][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.38:054][728]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2020.03.25-16.38.38:054][728]LogLoad: Game class is 'GameModeBase'
+[2020.03.25-16.38.38:056][728]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2020.03.25-10.38.38
+[2020.03.25-16.38.38:057][728]LogWorld: Bringing up level for play took: 0.001644
+[2020.03.25-16.38.38:073][728]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2020.03.25-16.38.38:076][728]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 1.019
+[2020.03.25-16.38.38:076][728]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap'
+[2020.03.25-16.38.38:114][729]LogRenderer: Reallocating scene render targets to support 3600x2004 Format 26 NumSamples 1 (Frame:1).
+[2020.03.25-16.38.47:698][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap'
+[2020.03.25-16.38.47:774][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.47:817][590]LogSlate: Window 'VrBingo Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.25-16.38.47:850][590]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.25-16.38.47:850][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap'
+[2020.03.25-16.38.47:905][591]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.03.25-16.39.01:323][184]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.39.01:329][184]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.25-16.39.01:340][184]LightingResults: New page: Lighting Build
+[2020.03.25-16.39.01:340][184]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2020.03.25-16.39.01:342][184]MapCheck: New page: Map Check
+[2020.03.25-16.39.01:342][184]LightingResults: New page: Lighting Build
+[2020.03.25-16.39.01:802][184]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.03.25-16.39.01:812][184]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.39.01:874][184]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.39.01:973][184]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 98.465ms to complete.
+[2020.03.25-16.39.01:973][184]LogFileHelpers: Loading map 'MotionControllerMap' took 0.650
+[2020.03.25-16.39.01:975][184]LogSlate: Window 'Open Level' being destroyed
+[2020.03.25-16.39.04:465][479]LogTemp: Repeating last play command: VR Preview
+[2020.03.25-16.39.04:480][479]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.03.25-16.39.04:480][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.25-16.39.04:481][479]PIE: New page: PIE session: MotionControllerMap (Mar 25, 2020, 4:39:04 AM)
+[2020.03.25-16.39.04:481][479]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.03.25-16.39.04:489][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008298s)
+[2020.03.25-16.39.04:489][479]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.03.25-16.39.04:490][479]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2020.03.25-16.39.04:490][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.009065s)
+[2020.03.25-16.39.04:620][479]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-16.39.04:629][479]LogInit: FAudioDevice initialized.
+[2020.03.25-16.39.04:639][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.39.04:710][479]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2020.03.25-16.39.04:710][479]LogLoad: Game class is 'GameModeBase'
+[2020.03.25-16.39.04:712][479]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2020.03.25-10.39.04
+[2020.03.25-16.39.04:712][479]LogWorld: Bringing up level for play took: 0.001759
+[2020.03.25-16.39.04:729][479]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.327
+[2020.03.25-16.39.04:730][479]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.03.25-16.40.27:098][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.03.25-16.40.27:180][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.40.27:222][873]LogSlate: Window 'VrBingo Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.25-16.40.27:257][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.25-16.40.27:258][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.03.25-16.40.27:318][874]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.03.25-16.46.03:872][ 43]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.46.04:816][149]LogEditorViewport: Clicking on Actor (context menu): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.46.04:838][149]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.46.06:636][361]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.46.16:861][153]LogSlate: Window 'New Level' being destroyed
+[2020.03.25-16.46.19:390][153]LogSlate: Window 'Save Content' being destroyed
+[2020.03.25-16.46.19:698][153]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/MotionControllerMap20A57917491BF0B23096C4AF0B7974AB.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2020.03.25-16.46.19:727][153]LogFileHelpers: Saving map 'MotionControllerMap' took 0.314
+[2020.03.25-16.46.19:732][153]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/VR-Basic.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.46.19:749][153]LightingResults: New page: Lighting Build
+[2020.03.25-16.46.19:750][153]LoadErrors: New page: Loading map: VR-Basic.umap
+[2020.03.25-16.46.19:778][153]MapCheck: New page: Map Check
+[2020.03.25-16.46.19:778][153]LightingResults: New page: Lighting Build
+[2020.03.25-16.46.20:012][153]LogAIModule: Creating AISystem for world Untitled_1
+[2020.03.25-16.46.20:019][153]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.46.20:054][153]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.46.20:156][153]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102.339ms to complete.
+[2020.03.25-16.46.20:156][153]LogFileHelpers: Loading map 'VR-Basic' took 0.424
+[2020.03.25-16.46.22:541][437]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.03.25-16.46.31:457][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.46.39:756][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.46.45:446][154]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.03.25-16.46.45:911][208]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (Player Start)
+[2020.03.25-16.46.45:933][208]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.47.20:902][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.47.25:180][331]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2020.03.25-16.47.26:672][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.47.26:789][518]LogTemp: Repeating last play command: VR Preview
+[2020.03.25-16.47.26:805][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.25-16.47.26:805][518]PIE: New page: PIE session: Untitled_1 (Mar 25, 2020, 4:47:26 AM)
+[2020.03.25-16.47.26:805][518]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.03.25-16.47.26:808][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002760s)
+[2020.03.25-16.47.26:808][518]LogAIModule: Creating AISystem for world Untitled_1
+[2020.03.25-16.47.26:809][518]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2020.03.25-16.47.26:809][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003538s)
+[2020.03.25-16.47.26:996][518]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-16.47.27:007][518]LogInit: FAudioDevice initialized.
+[2020.03.25-16.47.27:019][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.47.27:100][518]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2020.03.25-16.47.27:100][518]LogLoad: Game class is 'GameModeBase'
+[2020.03.25-16.47.27:102][518]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2020.03.25-10.47.27
+[2020.03.25-16.47.27:102][518]LogWorld: Bringing up level for play took: 0.001475
+[2020.03.25-16.47.27:119][518]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.062
+[2020.03.25-16.48.12:657][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.48.12:693][609]LogSlate: Window 'VrBingo Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.25-16.48.12:725][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.25-16.48.12:775][610]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.03.25-16.48.15:145][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (frozen_Room)
+[2020.03.25-16.48.15:853][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (frozen_Room)
+[2020.03.25-16.48.16:315][ 29]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.03.25-16.48.17:275][142]Cmd: DELETE
+[2020.03.25-16.48.17:275][142]Cmd: ACTOR DELETE
+[2020.03.25-16.48.17:277][142]LogEditorActor: Deleted Actor: PlayerStart
+[2020.03.25-16.48.17:307][142]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2020.03.25-16.48.19:210][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.48.19:293][380]LogTemp: Repeating last play command: VR Preview
+[2020.03.25-16.48.19:308][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.25-16.48.19:308][380]PIE: New page: PIE session: Untitled_1 (Mar 25, 2020, 4:48:19 AM)
+[2020.03.25-16.48.19:308][380]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.03.25-16.48.19:311][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002557s)
+[2020.03.25-16.48.19:312][380]LogAIModule: Creating AISystem for world Untitled_1
+[2020.03.25-16.48.19:312][380]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2020.03.25-16.48.19:312][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003276s)
+[2020.03.25-16.48.19:437][380]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-16.48.19:446][380]LogInit: FAudioDevice initialized.
+[2020.03.25-16.48.19:458][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.48.19:527][380]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2020.03.25-16.48.19:527][380]LogLoad: Game class is 'GameModeBase'
+[2020.03.25-16.48.19:529][380]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2020.03.25-10.48.19
+[2020.03.25-16.48.19:529][380]LogWorld: Bringing up level for play took: 0.001091
+[2020.03.25-16.48.19:546][380]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.489
+[2020.03.25-16.48.21:791][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.48.21:827][573]LogSlate: Window 'VrBingo Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.25-16.48.21:860][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.25-16.48.21:907][574]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.03.25-16.48.24:651][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.48.34:824][901]LogSlate: Window 'Save Level As' being destroyed
+[2020.03.25-16.48.34:828][901]LogSlate: FSceneViewport::OnFocusLost() reason 3
+[2020.03.25-16.48.35:012][901]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/VR_Bingo_Setup90D4EB5B4422DFE4D7F1E5949F5CF611.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup.umap'
+[2020.03.25-16.48.35:054][901]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/VR_Bingo_Setup_BuiltDataBE54016B4C4C4114FC7CD9AE2753E25C.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup_BuiltData.uasset'
+[2020.03.25-16.48.35:062][901]LogFileHelpers: Saving map 'VR_Bingo_Setup' took 0.232
+[2020.03.25-16.48.36:956][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.48.37:099][135]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/VR_Bingo_SetupFA77F10541537F805A5D30883EE54595.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup.umap'
+[2020.03.25-16.48.37:138][135]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/VR_Bingo_Setup_BuiltData451D137E4D95E6C7EBEBB1AA9844F768.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup_BuiltData.uasset'
+[2020.03.25-16.48.38:112][250]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.48.39:252][385]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.48.43:195][851]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.48.43:211][851]LightingResults: New page: Lighting Build
+[2020.03.25-16.48.43:211][851]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2020.03.25-16.48.43:212][851]MapCheck: New page: Map Check
+[2020.03.25-16.48.43:212][851]LightingResults: New page: Lighting Build
+[2020.03.25-16.48.43:281][851]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.03.25-16.48.43:290][851]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.48.43:349][851]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.48.43:457][851]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.378ms to complete.
+[2020.03.25-16.48.43:457][851]LogFileHelpers: Loading map 'MotionControllerMap' took 0.262
+[2020.03.25-16.48.43:458][851]LogSlate: Window 'Open Level' being destroyed
+[2020.03.25-16.48.50:457][677]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.48.52:927][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.48.53:048][978]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2020.03.25-16.48.53:472][978]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2020.03.25-16.48.54:206][978]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.25-16.48.54:383][979]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.25-16.49.06:341][872]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2020.03.25-16.49.06:345][872]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2020.03.25-16.49.15:288][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.49.29:673][623]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.49.29:687][623]LightingResults: New page: Lighting Build
+[2020.03.25-16.49.29:688][623]LoadErrors: New page: Loading map: VR_Bingo_Setup.umap
+[2020.03.25-16.49.29:712][623]MapCheck: New page: Map Check
+[2020.03.25-16.49.29:713][623]LightingResults: New page: Lighting Build
+[2020.03.25-16.49.29:762][623]LogAIModule: Creating AISystem for world VR_Bingo_Setup
+[2020.03.25-16.49.29:767][623]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.49.29:825][623]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.49.29:935][623]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 110.44ms to complete.
+[2020.03.25-16.49.29:935][623]LogFileHelpers: Loading map 'VR_Bingo_Setup' took 0.263
+[2020.03.25-16.49.29:937][623]LogSlate: Window 'Open Level' being destroyed
+[2020.03.25-16.49.33:132][999]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2020.03.25-16.49.45:466][240]Cmd: DELETE
+[2020.03.25-16.49.45:466][240]Cmd: ACTOR DELETE
+[2020.03.25-16.49.45:468][240]LogEditorActor: Deleted Actor: HMDLocomotionPawn_C
+[2020.03.25-16.49.45:534][240]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2020.03.25-16.49.48:282][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.49.51:679][943]Cmd: DELETE
+[2020.03.25-16.49.51:679][943]Cmd: ACTOR DELETE
+[2020.03.25-16.49.51:682][943]LogEditorActor: Deleted Actor: BP_MotionController_C
+[2020.03.25-16.49.51:717][943]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2020.03.25-16.49.54:478][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.49.58:698][768]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2020.03.25-16.50.13:860][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.50.44:431][ 34]LogSlate: Window 'Save Content' being destroyed
+[2020.03.25-16.50.44:628][ 34]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/VR_Bingo_Setup5870760E430BC663F083538033242DF6.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup.umap'
+[2020.03.25-16.50.44:658][ 34]LogFileHelpers: Saving map 'VR_Bingo_Setup' took 0.207
+[2020.03.25-16.50.44:661][ 34]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.50.44:674][ 34]LightingResults: New page: Lighting Build
+[2020.03.25-16.50.44:674][ 34]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2020.03.25-16.50.44:675][ 34]MapCheck: New page: Map Check
+[2020.03.25-16.50.44:675][ 34]LightingResults: New page: Lighting Build
+[2020.03.25-16.50.44:747][ 34]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.03.25-16.50.44:817][ 34]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.50.44:882][ 34]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.50.44:994][ 34]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111.626ms to complete.
+[2020.03.25-16.50.44:994][ 34]LogFileHelpers: Loading map 'MotionControllerMap' took 0.333
+[2020.03.25-16.50.44:997][ 34]LogSlate: Window 'Open Level' being destroyed
+[2020.03.25-16.51.12:632][318]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.51.16:479][768]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.51.21:218][327]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.51.21:996][415]LogEditorViewport: Clicking on Actor (context menu): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.51.22:016][415]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.51.35:071][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.51.35:409][934]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/MotionControllerMap03B414644E5756EBA74123B37179658C.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2020.03.25-16.51.35:576][934]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/MotionControllerMap_BuiltData9A89E2E4403F2D802137E2BBD87164C3.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2020.03.25-16.51.45:866][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.51.59:040][721]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/PickupActorInterface.PickupActorInterface
+[2020.03.25-18.09.10:033][572]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2020.03.25-18.09.10:038][572]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2020.03.25-18.09.23:726][172]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-18.09.24:690][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-18.09.27:928][284]LogSlate: Window 'Save Level As' being destroyed
+[2020.03.25-18.09.27:933][284]LogSlate: FSceneViewport::OnFocusLost() reason 3
+[2020.03.25-18.09.28:320][284]LogAIModule: Creating AISystem for world Hijacked
+[2020.03.25-18.09.28:579][284]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/Hijacked79B2AA6741DF1AF75D8BDFA87EAC9FF7.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/Hijacked.umap'
+[2020.03.25-18.09.28:665][284]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/Hijacked_BuiltDataFEB2CA0F4AB57869D88D26BD3CF61376.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/Hijacked_BuiltData.uasset'
+[2020.03.25-18.09.28:673][284]LogFileHelpers: Saving map 'Hijacked' took 0.739
+[2020.03.25-18.09.28:674][284]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/Hijacked.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-18.09.28:682][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-18.09.28:687][284]LightingResults: New page: Lighting Build
+[2020.03.25-18.09.28:687][284]LoadErrors: New page: Loading map: Hijacked.umap
+[2020.03.25-18.09.28:688][284]MapCheck: New page: Map Check
+[2020.03.25-18.09.28:688][284]LightingResults: New page: Lighting Build
+[2020.03.25-18.09.28:785][284]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-18.09.28:847][284]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-18.09.28:957][284]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109.969ms to complete.
+[2020.03.25-18.09.28:957][284]LogFileHelpers: Loading map 'Hijacked' took 0.283
+[2020.03.25-18.09.49:791][780]LogSlate: FSceneViewport::OnFocusLost() reason 0

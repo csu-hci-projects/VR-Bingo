@@ -1,0 +1,1476 @@
+﻿Log file open, 03/25/20 09:14:26
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine without a game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: Loading recent project file: ../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/VrBingo.uproject
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.121709
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.201s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.03.25-15.14.27:571][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.25-15.14.27:571][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.25-15.14.27:601][  0]LogHAL: Display: Platform has ~ 32 GB [34283347968 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.25-15.14.27:601][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.03.25-15.14.27:601][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.25-15.14.27:608][  0]LogInit: Computer: THE-STORM-TROOP
+[2020.03.25-15.14.27:608][  0]LogInit: User: owner
+[2020.03.25-15.14.27:608][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.03.25-15.14.27:608][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.25-15.14.27:608][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.03.25-15.14.27:608][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.25-15.14.27:608][  0]LogMemory: Process Physical Memory: 101.43 MB used, 101.44 MB peak
+[2020.03.25-15.14.27:608][  0]LogMemory: Process Virtual Memory: 92.59 MB used, 92.59 MB peak
+[2020.03.25-15.14.27:608][  0]LogMemory: Physical Memory: 6342.49 MB used,  26352.66 MB free, 32695.15 MB total
+[2020.03.25-15.14.27:608][  0]LogMemory: Virtual Memory: 4663.40 MB used,  26352.66 MB free, 134217728.00 MB total
+[2020.03.25-15.14.27:832][  0]LogInit: Using OS detected language (en-US).
+[2020.03.25-15.14.27:832][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.25-15.14.27:834][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.25-15.14.28:266][  0]LogStreaming: Display: Took  0.433s to InitEngineTextLocalization.
+[2020.03.25-15.14.28:266][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.25-15.14.28:375][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.25-15.14.28:375][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.25-15.14.38:612][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.03.25-15.14.38:612][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.25-15.14.38:705][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2020.03.25-15.14.38:705][  0]LogD3D11RHI:       8079/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.03.25-15.14.38:708][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.25-15.14.38:708][  0]LogD3D11RHI:       0/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.25-15.14.38:708][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.25-15.14.38:719][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.25-15.14.38:719][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.25-15.14.38:719][  0]LogWindows: EnumDisplayDevices:
+[2020.03.25-15.14.38:719][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2020.03.25-15.14.38:720][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2020.03.25-15.14.38:720][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.03.25-15.14.38:720][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.03.25-15.14.38:720][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.03.25-15.14.38:720][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2020.03.25-15.14.38:720][  0]LogD3D11RHI:   Driver Version: 442.74 (internal:26.21.14.4274, unified:442.74)
+[2020.03.25-15.14.38:720][  0]LogD3D11RHI:      Driver Date: 3-13-2020
+[2020.03.25-15.14.38:720][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2020.03.25-15.14.38:776][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.25-15.14.38:806][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.25-15.14.38:811][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Intermediate/Shaders/WorkingDirectory/13228/).
+[2020.03.25-15.14.38:811][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/owner/AppData/Local/Temp/UnrealShaderWorkingDir/89700B3D4233C957490ADCA31043A517/'.
+[2020.03.25-15.14.39:085][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.03.25-15.14.39:100][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.03.25-15.14.39:114][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.03.25-15.14.39:131][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.03.25-15.14.39:149][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.03.25-15.14.39:165][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.03.25-15.14.39:180][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.03.25-15.14.39:197][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.03.25-15.14.39:204][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:302][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-15.14.39:304][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.03.25-15.14.39:368][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.03.25-15.14.39:368][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.03.25-15.14.39:396][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.03.25-15.14.39:396][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.03.25-15.14.39:411][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.03.25-15.14.39:426][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.03.25-15.14.39:441][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.03.25-15.14.39:457][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.03.25-15.14.39:467][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.03.25-15.14.39:467][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.25-15.14.39:517][  0]LogXGEController: Cleaning working directory: C:/Users/owner/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.25-15.14.39:517][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.25-15.14.39:517][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.25-15.14.39:517][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.25-15.14.40:432][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.25-15.14.40:482][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.03.25-15.14.40:482][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.03.25-15.14.40:482][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.25-15.14.40:482][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.25-15.14.40:482][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.25-15.14.40:482][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.25-15.14.40:498][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.25-15.14.40:511][  0]LogDerivedDataCache: Using Local data cache path C:/Users/owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.25-15.14.40:511][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.25-15.14.40:511][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.25-15.14.40:528][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.25-15.14.40:529][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.25-15.14.40:530][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.25-15.14.40:602][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2020.03.25-15.14.40:976][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.25-15.14.41:093][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.03.25-15.14.41:096][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.03.25-15.14.41:096][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.25-15.14.41:096][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.25-15.14.41:096][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.03.25-15.14.41:112][  0]LogNetVersion: VrBingo 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3676908297)
+[2020.03.25-15.14.41:666][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.145863 seconds
+[2020.03.25-15.14.41:674][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.03.25-15.14.41:674][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2020.03.25-15.14.41:674][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.25-15.14.42:751][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.25-15.14.42:768][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.25-15.14.43:091][  0]SourceControl: Source control is disabled
+[2020.03.25-15.14.43:091][  0]SourceControl: Source control is disabled
+[2020.03.25-15.14.43:099][  0]SourceControl: Source control is disabled
+[2020.03.25-15.14.43:104][  0]SourceControl: Source control is disabled
+[2020.03.25-15.14.43:426][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.25-15.14.43:692][  0]LogOcInput: OculusInput pre-init called
+[2020.03.25-15.14.43:816][  0]LogEngine: Initializing Engine...
+[2020.03.25-15.14.44:394][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.03.25-15.14.44:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.03.25-15.14.44:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.25-15.14.44:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.03.25-15.14.44:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.25-15.14.44:576][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.25-15.14.44:587][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.25-15.14.44:662][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-15.14.44:673][  0]LogInit: FAudioDevice initialized.
+[2020.03.25-15.14.44:673][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.25-15.14.44:768][  0]LogDerivedDataCache: Saved boot cache 0.10s 72MB C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.03.25-15.14.44:774][  0]LogInit: Texture streaming: Enabled
+[2020.03.25-15.14.44:788][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.25-15.14.45:194][  0]LogInit: Transaction tracking system initialized
+[2020.03.25-15.14.45:233][  0]BlueprintLog: New page: Editor Load
+[2020.03.25-15.14.45:434][  0]LocalizationService: Localization service is disabled
+[2020.03.25-15.14.46:149][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.25-15.14.46:149][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.25-15.14.46:149][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.03.25-15.14.46:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.03.25-15.14.46:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.25-15.14.46:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.03.25-15.14.46:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.25-15.14.46:241][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/' took 0.02s
+[2020.03.25-15.14.46:429][  0]SourceControl: Source control is disabled
+[2020.03.25-15.14.46:430][  0]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-15.14.46:436][  0]LightingResults: New page: Lighting Build
+[2020.03.25-15.14.46:443][  0]MapCheck: New page: Map Check
+[2020.03.25-15.14.46:443][  0]LightingResults: New page: Lighting Build
+[2020.03.25-15.14.46:736][  0]LogAIModule: Creating AISystem for world StartupMap
+[2020.03.25-15.14.46:757][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-15.14.46:792][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-15.14.46:918][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 126.566ms to complete.
+[2020.03.25-15.14.46:918][  0]LogFileHelpers: Loading map 'StartupMap' took 0.489
+[2020.03.25-15.14.47:088][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-15.14.47:096][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-15.14.47:104][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-15.14.47:111][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-15.14.47:128][  0]LogCollectionManager: Loaded 0 collections in 0.001022 seconds
+[2020.03.25-15.14.47:183][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/Collections/' took 0.01s
+[2020.03.25-15.14.47:183][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/Developers/owner/Collections/' took 0.01s
+[2020.03.25-15.14.47:183][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/Collections/' took 0.01s
+[2020.03.25-15.14.47:183][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.25-15.14.47:196][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2572 classes and 603 folders.
+[2020.03.25-15.14.47:208][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.25-15.14.47:530][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.25-15.14.47:570][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.03.25-15.14.47:601][  0]LogSlate: Took 0.006167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.25-15.14.47:611][  0]LogSlate: Took 0.005701 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.25-15.14.47:620][  0]LogSlate: Took 0.005116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.25-15.14.47:715][  0]LogRenderer: Reallocating scene render targets to support 1528x576 Format 26 NumSamples 1 (Frame:1).
+[2020.03.25-15.14.47:842][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.25-15.14.47:842][  0]LogLoad: (Engine Initialization) Total time: 26.50 seconds
+[2020.03.25-15.14.47:842][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.25-15.14.47:880][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.25-15.14.47:909][  0]LogSlate: Took 0.006983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.25-15.14.47:947][  1]LogAssetRegistry: Asset discovery search completed in 7.3671 seconds
+[2020.03.25-15.14.47:948][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.03.25-15.14.47:948][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2020.03.25-15.36.01:608][821]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-15.36.07:098][838]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-15.36.11:582][849]LogInit: XAudio2 using 'E260MV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.25-15.36.12:154][850]LogAudio: Error: GetDeviceCount error: Unhandled error code -2147024809
+[2020.03.25-15.36.12:154][850]LogInit: No audio devices found!
+[2020.03.25-15.36.13:085][851]LogInit: XAudio2 using 'VIVE Pro (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.25-15.36.14:657][852]LogInit: XAudio2 using 'VIVE Pro (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.25-16.10.38:066][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.10.38:203][ 45]LogPlayLevel: Launcher Device ID: WindowsNoEditor@THE-STORM-TROOP
+[2020.03.25-16.10.38:217][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.25-16.10.38:217][ 45]LogCook: Display: Creating asset registry
+[2020.03.25-16.10.38:225][ 45]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.25-16.10.38:845][ 45]LogCook: Display: Discovering localized assets
+[2020.03.25-16.10.38:880][ 45]LogCook: Display: Cooked content cleared for platform AllDesktop
+[2020.03.25-16.10.38:880][ 45]LogCook: Display: Unable to read previous cook inisettings for platform AllDesktop invalidating cook
+[2020.03.25-16.10.38:937][ 45]LogCook: Display: Cooked content cleared for platform MacClient
+[2020.03.25-16.10.38:937][ 45]LogCook: Display: Unable to read previous cook inisettings for platform MacClient invalidating cook
+[2020.03.25-16.10.38:990][ 45]LogCook: Display: Cooked content cleared for platform MacNoEditor
+[2020.03.25-16.10.38:990][ 45]LogCook: Display: Unable to read previous cook inisettings for platform MacNoEditor invalidating cook
+[2020.03.25-16.10.39:042][ 45]LogCook: Display: Cooked content cleared for platform MacServer
+[2020.03.25-16.10.39:042][ 45]LogCook: Display: Unable to read previous cook inisettings for platform MacServer invalidating cook
+[2020.03.25-16.10.39:094][ 45]LogCook: Display: Cooked content cleared for platform Mac
+[2020.03.25-16.10.39:095][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Mac invalidating cook
+[2020.03.25-16.10.39:146][ 45]LogCook: Display: Cooked content cleared for platform WindowsClient
+[2020.03.25-16.10.39:146][ 45]LogCook: Display: Unable to read previous cook inisettings for platform WindowsClient invalidating cook
+[2020.03.25-16.10.39:202][ 45]LogCook: Display: Cooked content cleared for platform WindowsNoEditor
+[2020.03.25-16.10.39:202][ 45]LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2020.03.25-16.10.39:256][ 45]LogCook: Display: Cooked content cleared for platform WindowsServer
+[2020.03.25-16.10.39:257][ 45]LogCook: Display: Unable to read previous cook inisettings for platform WindowsServer invalidating cook
+[2020.03.25-16.10.39:308][ 45]LogCook: Display: Cooked content cleared for platform Windows
+[2020.03.25-16.10.39:308][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Windows invalidating cook
+[2020.03.25-16.10.39:360][ 45]LogCook: Display: Cooked content cleared for platform Android
+[2020.03.25-16.10.39:360][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android invalidating cook
+[2020.03.25-16.10.39:412][ 45]LogCook: Display: Cooked content cleared for platform Android_ASTC
+[2020.03.25-16.10.39:412][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_ASTC invalidating cook
+[2020.03.25-16.10.39:464][ 45]LogCook: Display: Cooked content cleared for platform Android_ATC
+[2020.03.25-16.10.39:464][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_ATC invalidating cook
+[2020.03.25-16.10.39:517][ 45]LogCook: Display: Cooked content cleared for platform Android_DXT
+[2020.03.25-16.10.39:517][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_DXT invalidating cook
+[2020.03.25-16.10.39:570][ 45]LogCook: Display: Cooked content cleared for platform Android_ETC1
+[2020.03.25-16.10.39:570][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1 invalidating cook
+[2020.03.25-16.10.39:622][ 45]LogCook: Display: Cooked content cleared for platform Android_ETC1a
+[2020.03.25-16.10.39:623][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1a invalidating cook
+[2020.03.25-16.10.39:675][ 45]LogCook: Display: Cooked content cleared for platform Android_ETC2
+[2020.03.25-16.10.39:675][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC2 invalidating cook
+[2020.03.25-16.10.39:729][ 45]LogCook: Display: Cooked content cleared for platform Android_PVRTC
+[2020.03.25-16.10.39:729][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_PVRTC invalidating cook
+[2020.03.25-16.10.39:782][ 45]LogCook: Display: Cooked content cleared for platform AndroidClient
+[2020.03.25-16.10.39:782][ 45]LogCook: Display: Unable to read previous cook inisettings for platform AndroidClient invalidating cook
+[2020.03.25-16.10.39:835][ 45]LogCook: Display: Cooked content cleared for platform Android_ASTCClient
+[2020.03.25-16.10.39:835][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_ASTCClient invalidating cook
+[2020.03.25-16.10.39:888][ 45]LogCook: Display: Cooked content cleared for platform Android_ATCClient
+[2020.03.25-16.10.39:888][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_ATCClient invalidating cook
+[2020.03.25-16.10.39:942][ 45]LogCook: Display: Cooked content cleared for platform Android_DXTClient
+[2020.03.25-16.10.39:942][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_DXTClient invalidating cook
+[2020.03.25-16.10.39:997][ 45]LogCook: Display: Cooked content cleared for platform Android_ETC1Client
+[2020.03.25-16.10.39:997][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1Client invalidating cook
+[2020.03.25-16.10.40:051][ 45]LogCook: Display: Cooked content cleared for platform Android_ETC1aClient
+[2020.03.25-16.10.40:051][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1aClient invalidating cook
+[2020.03.25-16.10.40:106][ 45]LogCook: Display: Cooked content cleared for platform Android_ETC2Client
+[2020.03.25-16.10.40:107][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC2Client invalidating cook
+[2020.03.25-16.10.40:161][ 45]LogCook: Display: Cooked content cleared for platform Android_PVRTCClient
+[2020.03.25-16.10.40:161][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_PVRTCClient invalidating cook
+[2020.03.25-16.10.40:214][ 45]LogCook: Display: Cooked content cleared for platform Android_Multi
+[2020.03.25-16.10.40:214][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_Multi invalidating cook
+[2020.03.25-16.10.40:271][ 45]LogCook: Display: Cooked content cleared for platform Android_MultiClient
+[2020.03.25-16.10.40:271][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Android_MultiClient invalidating cook
+[2020.03.25-16.10.40:325][ 45]LogCook: Display: Cooked content cleared for platform HTML5
+[2020.03.25-16.10.40:325][ 45]LogCook: Display: Unable to read previous cook inisettings for platform HTML5 invalidating cook
+[2020.03.25-16.10.40:378][ 45]LogCook: Display: Cooked content cleared for platform IOSClient
+[2020.03.25-16.10.40:378][ 45]LogCook: Display: Unable to read previous cook inisettings for platform IOSClient invalidating cook
+[2020.03.25-16.10.40:434][ 45]LogCook: Display: Cooked content cleared for platform IOS
+[2020.03.25-16.10.40:434][ 45]LogCook: Display: Unable to read previous cook inisettings for platform IOS invalidating cook
+[2020.03.25-16.10.40:486][ 45]LogCook: Display: Cooked content cleared for platform TVOSClient
+[2020.03.25-16.10.40:486][ 45]LogCook: Display: Unable to read previous cook inisettings for platform TVOSClient invalidating cook
+[2020.03.25-16.10.40:539][ 45]LogCook: Display: Cooked content cleared for platform TVOS
+[2020.03.25-16.10.40:539][ 45]LogCook: Display: Unable to read previous cook inisettings for platform TVOS invalidating cook
+[2020.03.25-16.10.40:592][ 45]LogCook: Display: Cooked content cleared for platform LinuxClient
+[2020.03.25-16.10.40:592][ 45]LogCook: Display: Unable to read previous cook inisettings for platform LinuxClient invalidating cook
+[2020.03.25-16.10.40:645][ 45]LogCook: Display: Cooked content cleared for platform LinuxNoEditor
+[2020.03.25-16.10.40:645][ 45]LogCook: Display: Unable to read previous cook inisettings for platform LinuxNoEditor invalidating cook
+[2020.03.25-16.10.40:698][ 45]LogCook: Display: Cooked content cleared for platform LinuxServer
+[2020.03.25-16.10.40:698][ 45]LogCook: Display: Unable to read previous cook inisettings for platform LinuxServer invalidating cook
+[2020.03.25-16.10.40:751][ 45]LogCook: Display: Cooked content cleared for platform Linux
+[2020.03.25-16.10.40:751][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Linux invalidating cook
+[2020.03.25-16.10.40:804][ 45]LogCook: Display: Cooked content cleared for platform Lumin
+[2020.03.25-16.10.40:804][ 45]LogCook: Display: Unable to read previous cook inisettings for platform Lumin invalidating cook
+[2020.03.25-16.10.40:858][ 45]LogCook: Display: Sandbox cleanup took 1.978 seconds for platforms AllDesktop MacClient MacNoEditor MacServer Mac WindowsClient WindowsNoEditor WindowsServer Windows Android Android_ASTC Android_ATC Android_DXT Android_ETC1 Android_ETC1a Android_ETC2 Android_PVRTC AndroidClient Android_ASTCClient Android_ATCClient Android_DXTClient Android_ETC1Client Android_ETC1aClient Android_ETC2Client Android_PVRTCClient Android_Multi Android_MultiClient HTML5 IOSClient IOS TVOSClient TVOS LinuxClient LinuxNoEditor LinuxServer Linux Lumin  iterative false
+[2020.03.25-16.10.41:734][ 45]LogMaterial: Verifying Global Shaders for PCD3D_SM4
+[2020.03.25-16.10.42:005][ 46]LogCook: Display: Cooked packages 0 Packages Remain 352 Total 352
+[2020.03.25-16.10.42:114][ 47]LogCook: Display: Cooked packages 0 Packages Remain 352 Total 352
+[2020.03.25-16.10.42:224][ 48]LogCook: Display: Cooked packages 0 Packages Remain 352 Total 352
+[2020.03.25-16.10.42:244][ 48]LogAIModule: Creating AISystem for world Entry
+[2020.03.25-16.10.42:332][ 49]LogCook: Display: Cooked packages 0 Packages Remain 353 Total 353
+[2020.03.25-16.10.42:933][ 49]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.03.25-16.10.42:945][ 50]LogCook: Display: Cooked packages 0 Packages Remain 380 Total 380
+[2020.03.25-16.10.43:058][ 51]LogCook: Display: Cooked packages 0 Packages Remain 380 Total 380
+[2020.03.25-16.10.43:162][ 52]LogCook: Display: Cooked packages 0 Packages Remain 380 Total 380
+[2020.03.25-16.10.43:267][ 53]LogCook: Display: Cooked packages 0 Packages Remain 380 Total 380
+[2020.03.25-16.10.43:369][ 53]LogContentBrowser: Native class hierarchy updated for 'BlueprintNativeCodeGen' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.25-16.10.43:376][ 54]LogCook: Display: Cooked packages 1 Packages Remain 379 Total 380
+[2020.03.25-16.10.43:482][ 55]LogCook: Display: Cooked packages 1 Packages Remain 379 Total 380
+[2020.03.25-16.10.43:602][ 56]LogCook: Display: Cooked packages 11 Packages Remain 378 Total 389
+[2020.03.25-16.10.43:710][ 57]LogCook: Display: Cooked packages 46 Packages Remain 377 Total 423
+[2020.03.25-16.10.43:819][ 58]LogCook: Display: Cooked packages 89 Packages Remain 376 Total 465
+[2020.03.25-16.10.43:931][ 59]LogCook: Display: Cooked packages 107 Packages Remain 375 Total 482
+[2020.03.25-16.10.44:037][ 60]LogCook: Display: Cooked packages 123 Packages Remain 374 Total 497
+[2020.03.25-16.10.44:145][ 61]LogCook: Display: Cooked packages 149 Packages Remain 373 Total 522
+[2020.03.25-16.10.44:259][ 62]LogCook: Display: Cooked packages 192 Packages Remain 372 Total 564
+[2020.03.25-16.10.44:363][ 63]LogCook: Display: Cooked packages 192 Packages Remain 372 Total 564
+[2020.03.25-16.10.44:467][ 64]LogCook: Display: Cooked packages 200 Packages Remain 371 Total 571
+[2020.03.25-16.10.44:577][ 65]LogCook: Display: Cooked packages 207 Packages Remain 370 Total 577
+[2020.03.25-16.10.44:710][ 66]LogCook: Display: Cooked packages 209 Packages Remain 369 Total 578
+[2020.03.25-16.10.44:817][ 67]LogCook: Display: Cooked packages 223 Packages Remain 368 Total 591
+[2020.03.25-16.10.44:922][ 68]LogCook: Display: Cooked packages 226 Packages Remain 367 Total 593
+[2020.03.25-16.10.45:127][ 69]LogCook: Display: Cooked packages 246 Packages Remain 366 Total 612
+[2020.03.25-16.10.45:234][ 70]LogCook: Display: Cooked packages 280 Packages Remain 365 Total 645
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 364 Total 694
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 363 Total 693
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 362 Total 692
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 361 Total 691
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 360 Total 690
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 359 Total 689
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 358 Total 688
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 357 Total 687
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 356 Total 686
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 355 Total 685
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 354 Total 684
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 353 Total 683
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 352 Total 682
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 351 Total 681
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 350 Total 680
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 349 Total 679
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 348 Total 678
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 347 Total 677
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 346 Total 676
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 345 Total 675
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 344 Total 674
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 343 Total 673
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 342 Total 672
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 341 Total 671
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 340 Total 670
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 339 Total 669
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 338 Total 668
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 337 Total 667
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 336 Total 666
+[2020.03.25-16.10.45:338][ 71]LogCook: Display: Cooked packages 330 Packages Remain 335 Total 665
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 334 Total 664
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 333 Total 663
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 332 Total 662
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 331 Total 661
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 330 Total 660
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 329 Total 659
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 328 Total 658
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 327 Total 657
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 326 Total 656
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 325 Total 655
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 324 Total 654
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 323 Total 653
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 322 Total 652
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 321 Total 651
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 320 Total 650
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 319 Total 649
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 318 Total 648
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 317 Total 647
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 316 Total 646
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 315 Total 645
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 314 Total 644
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 313 Total 643
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 312 Total 642
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 311 Total 641
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 310 Total 640
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 309 Total 639
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 308 Total 638
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 307 Total 637
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 306 Total 636
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 305 Total 635
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 304 Total 634
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 303 Total 633
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 302 Total 632
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 301 Total 631
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 300 Total 630
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 299 Total 629
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 298 Total 628
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 297 Total 627
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 296 Total 626
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 295 Total 625
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 294 Total 624
+[2020.03.25-16.10.45:339][ 71]LogCook: Display: Cooked packages 330 Packages Remain 293 Total 623
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 292 Total 622
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 291 Total 621
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 290 Total 620
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 289 Total 619
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 288 Total 618
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 287 Total 617
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 286 Total 616
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 285 Total 615
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 284 Total 614
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 283 Total 613
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 282 Total 612
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 281 Total 611
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 280 Total 610
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 279 Total 609
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 278 Total 608
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 277 Total 607
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 276 Total 606
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 275 Total 605
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 274 Total 604
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 273 Total 603
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 272 Total 602
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 271 Total 601
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 270 Total 600
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 269 Total 599
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 268 Total 598
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 267 Total 597
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 266 Total 596
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 265 Total 595
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 264 Total 594
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 263 Total 593
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 262 Total 592
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 261 Total 591
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 260 Total 590
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 259 Total 589
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 258 Total 588
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 257 Total 587
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 256 Total 586
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 255 Total 585
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 254 Total 584
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 253 Total 583
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 252 Total 582
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 251 Total 581
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 250 Total 580
+[2020.03.25-16.10.45:340][ 71]LogCook: Display: Cooked packages 330 Packages Remain 249 Total 579
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 248 Total 578
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 247 Total 577
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 246 Total 576
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 245 Total 575
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 244 Total 574
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 243 Total 573
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 242 Total 572
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 241 Total 571
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 240 Total 570
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 239 Total 569
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 238 Total 568
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 237 Total 567
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 236 Total 566
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 235 Total 565
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 234 Total 564
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 233 Total 563
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 232 Total 562
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 231 Total 561
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 230 Total 560
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 229 Total 559
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 228 Total 558
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 227 Total 557
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 226 Total 556
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 225 Total 555
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 224 Total 554
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 223 Total 553
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 222 Total 552
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 221 Total 551
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 220 Total 550
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 219 Total 549
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 218 Total 548
+[2020.03.25-16.10.45:341][ 71]LogCook: Display: Cooked packages 330 Packages Remain 217 Total 547
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 216 Total 546
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 215 Total 545
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 214 Total 544
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 213 Total 543
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 212 Total 542
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 211 Total 541
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 210 Total 540
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 209 Total 539
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 208 Total 538
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 207 Total 537
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 206 Total 536
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 205 Total 535
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 204 Total 534
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 203 Total 533
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 202 Total 532
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 201 Total 531
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 200 Total 530
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 199 Total 529
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 198 Total 528
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 197 Total 527
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 196 Total 526
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 195 Total 525
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 194 Total 524
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 193 Total 523
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 192 Total 522
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 191 Total 521
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 190 Total 520
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 189 Total 519
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 188 Total 518
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 187 Total 517
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 186 Total 516
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 185 Total 515
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 184 Total 514
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 183 Total 513
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 182 Total 512
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 181 Total 511
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 180 Total 510
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 179 Total 509
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 178 Total 508
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 177 Total 507
+[2020.03.25-16.10.45:342][ 71]LogCook: Display: Cooked packages 330 Packages Remain 176 Total 506
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 175 Total 505
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 174 Total 504
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 173 Total 503
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 172 Total 502
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 171 Total 501
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 170 Total 500
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 169 Total 499
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 168 Total 498
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 167 Total 497
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 166 Total 496
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 165 Total 495
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 164 Total 494
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 163 Total 493
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 162 Total 492
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 161 Total 491
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 160 Total 490
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 159 Total 489
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 158 Total 488
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 157 Total 487
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 156 Total 486
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 155 Total 485
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 154 Total 484
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 153 Total 483
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 152 Total 482
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 151 Total 481
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 150 Total 480
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 149 Total 479
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 148 Total 478
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 147 Total 477
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 146 Total 476
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 145 Total 475
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 144 Total 474
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 143 Total 473
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 142 Total 472
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 141 Total 471
+[2020.03.25-16.10.45:343][ 71]LogCook: Display: Cooked packages 330 Packages Remain 140 Total 470
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 139 Total 469
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 138 Total 468
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 137 Total 467
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 136 Total 466
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 135 Total 465
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 134 Total 464
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 133 Total 463
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 132 Total 462
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 131 Total 461
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 130 Total 460
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 129 Total 459
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 128 Total 458
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 127 Total 457
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 126 Total 456
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 125 Total 455
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 124 Total 454
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 123 Total 453
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 122 Total 452
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 121 Total 451
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 120 Total 450
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 119 Total 449
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 118 Total 448
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 117 Total 447
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 116 Total 446
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 115 Total 445
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 114 Total 444
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 113 Total 443
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 112 Total 442
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 111 Total 441
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 110 Total 440
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 109 Total 439
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 108 Total 438
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 107 Total 437
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 106 Total 436
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 105 Total 435
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 104 Total 434
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 103 Total 433
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 102 Total 432
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 101 Total 431
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 100 Total 430
+[2020.03.25-16.10.45:344][ 71]LogCook: Display: Cooked packages 330 Packages Remain 99 Total 429
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 98 Total 428
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 97 Total 427
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 96 Total 426
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 95 Total 425
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 94 Total 424
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 93 Total 423
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 92 Total 422
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 91 Total 421
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 90 Total 420
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 89 Total 419
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 88 Total 418
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 87 Total 417
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 86 Total 416
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 85 Total 415
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 84 Total 414
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 83 Total 413
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 82 Total 412
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 81 Total 411
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 80 Total 410
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 79 Total 409
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 78 Total 408
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 77 Total 407
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 76 Total 406
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 75 Total 405
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 74 Total 404
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 73 Total 403
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 72 Total 402
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 71 Total 401
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 70 Total 400
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 69 Total 399
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 68 Total 398
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 67 Total 397
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 66 Total 396
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 65 Total 395
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 64 Total 394
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 63 Total 393
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 62 Total 392
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 61 Total 391
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 60 Total 390
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 59 Total 389
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 58 Total 388
+[2020.03.25-16.10.45:345][ 71]LogCook: Display: Cooked packages 330 Packages Remain 57 Total 387
+[2020.03.25-16.10.45:441][ 72]LogCook: Display: Cooked packages 330 Packages Remain 57 Total 387
+[2020.03.25-16.10.45:642][ 73]LogCook: Display: Cooked packages 335 Packages Remain 56 Total 391
+[2020.03.25-16.10.45:740][ 73]LogCook: Display: Cooked packages 364 Packages Remain 55 Total 419
+[2020.03.25-16.10.45:752][ 74]LogCook: Display: Cooked packages 364 Packages Remain 55 Total 419
+[2020.03.25-16.10.45:781][ 74]LogCook: Display: Cooked packages 366 Packages Remain 54 Total 420
+[2020.03.25-16.10.45:795][ 74]LogCook: Display: Cooked packages 367 Packages Remain 53 Total 420
+[2020.03.25-16.10.45:806][ 74]LogCook: Display: Cooked packages 368 Packages Remain 52 Total 420
+[2020.03.25-16.10.45:815][ 74]LogCook: Display: Cooked packages 369 Packages Remain 51 Total 420
+[2020.03.25-16.10.45:824][ 74]LogCook: Display: Cooked packages 370 Packages Remain 50 Total 420
+[2020.03.25-16.10.45:832][ 74]LogCook: Display: Cooked packages 371 Packages Remain 49 Total 420
+[2020.03.25-16.10.45:841][ 74]LogCook: Display: Cooked packages 372 Packages Remain 48 Total 420
+[2020.03.25-16.10.45:850][ 74]LogCook: Display: Cooked packages 373 Packages Remain 47 Total 420
+[2020.03.25-16.10.45:859][ 75]LogCook: Display: Cooked packages 373 Packages Remain 47 Total 420
+[2020.03.25-16.10.45:869][ 75]LogCook: Display: Cooked packages 375 Packages Remain 46 Total 421
+[2020.03.25-16.10.45:879][ 75]LogCook: Display: Cooked packages 376 Packages Remain 45 Total 421
+[2020.03.25-16.10.45:888][ 75]LogCook: Display: Cooked packages 377 Packages Remain 44 Total 421
+[2020.03.25-16.10.45:897][ 75]LogCook: Display: Cooked packages 378 Packages Remain 43 Total 421
+[2020.03.25-16.10.45:907][ 75]LogCook: Display: Cooked packages 379 Packages Remain 42 Total 421
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 41 Total 421
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 40 Total 420
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 39 Total 419
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 38 Total 418
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 37 Total 417
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 36 Total 416
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 35 Total 415
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 34 Total 414
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 33 Total 413
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 32 Total 412
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 31 Total 411
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 30 Total 410
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 29 Total 409
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 28 Total 408
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 27 Total 407
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 26 Total 406
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 25 Total 405
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 24 Total 404
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 23 Total 403
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 22 Total 402
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 21 Total 401
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 20 Total 400
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 19 Total 399
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 18 Total 398
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 17 Total 397
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 16 Total 396
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 15 Total 395
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 14 Total 394
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 13 Total 393
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 12 Total 392
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 11 Total 391
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 10 Total 390
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 9 Total 389
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 8 Total 388
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 7 Total 387
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 6 Total 386
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 5 Total 385
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 4 Total 384
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 3 Total 383
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 2 Total 382
+[2020.03.25-16.10.45:917][ 75]LogCook: Display: Cooked packages 380 Packages Remain 1 Total 381
+[2020.03.25-16.10.45:932][ 75]LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2020.03.25-16.10.45:932][ 75]LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2020.03.25-16.10.45:932][ 75]LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2020.03.25-16.10.46:002][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:002][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:002][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:042][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:042][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:065][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:065][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:065][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:103][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:103][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:122][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:122][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:122][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:159][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:159][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:176][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:176][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:176][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:212][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:212][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:230][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:230][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:230][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:267][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:267][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:287][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:287][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:287][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:324][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:324][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:342][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:343][ 75]LogAssetRegistryGenerator: Chunk: 0, Started with 368 packages, Final after dependency resolve: 368
+[2020.03.25-16.10.46:343][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:343][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:362][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 368, size is 151.43kb
+[2020.03.25-16.10.46:362][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:377][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:377][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:377][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:413][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:413][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:431][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:431][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:431][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:467][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:467][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:487][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:487][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:487][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:525][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:525][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:544][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:544][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:544][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:581][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:581][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:598][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:598][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:598][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:634][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:634][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:652][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:652][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:652][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:688][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:688][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:706][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:706][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:706][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:743][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:743][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:761][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:761][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:761][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:805][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:805][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:827][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:827][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:827][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:862][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:863][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:880][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:880][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:880][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:916][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:916][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:934][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:934][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:934][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.46:972][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.46:972][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.46:989][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.46:989][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.46:989][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:025][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:025][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:042][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:042][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:042][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:078][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:078][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:096][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:096][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:096][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:134][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:134][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:151][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:151][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:151][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:190][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:190][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:208][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:208][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:208][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:245][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:245][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:262][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:262][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:262][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:298][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:298][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:317][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:317][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:317][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:356][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:356][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:373][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:373][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:373][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:411][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:411][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:428][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:429][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:429][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:464][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:464][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:484][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:484][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:484][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:521][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:522][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:542][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:542][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:542][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:581][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:581][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:598][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:599][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:599][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:634][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:634][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:652][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:652][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:652][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:688][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:688][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:705][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:706][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:706][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:742][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:742][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:765][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:765][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:765][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:805][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:805][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:823][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:823][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:823][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:859][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:859][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:879][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:879][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:879][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:916][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:916][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:934][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:934][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:934][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.47:971][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.47:971][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.47:988][ 75]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2020.03.25-16.10.47:988][ 75]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.000 s
+[2020.03.25-16.10.47:988][ 75]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.03.25-16.10.48:025][ 75]LogAssetRegistryGenerator: Display: Generated asset registry num assets 2077, size is 849.14kb
+[2020.03.25-16.10.48:025][ 75]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.03.25-16.10.48:031][ 75]LogCook: Display: Cook by the book total time in tick 3.765429s total time 9.813354
+[2020.03.25-16.10.48:031][ 75]LogCook: Display: Peak Used virtual 1630 Peak Used phsical 844
+[2020.03.25-16.10.48:031][ 75]LogCook: Display: Hierarchy Timer Information:
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:   Root: 0.000000ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:   StartCookByTheBookTime: 3738.769799ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:     GenerateAssetRegistryTime: 0.028901ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:     CleanSandboxTime: 1978.491900ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:       ProcessingAccessedStrings: 528.973108ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:     CollectFilesToCook: 207.019402ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:       CookModificationDelegate: 0.018802ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:       SearchForPackageOnDisk: 0.005700ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:       GetObjectsWithOuter: 0.057800ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:       GeneratePackageNames: 16.579201ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         UnsolicitedPackageAlreadyCooked: 0.027394ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         PackageCast: 0.054430ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         FullGCAssetsContains: 0.013985ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         AddUnassignedPackageToManifest: 0.000000ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         GetCachedName: 16.369727ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         AddToPackageList: 16.297398ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:     GenerateLongPackageName: 0.858899ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:   TickCookOnTheSide: 3753.682293ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:     ShouldCook: 0.021908ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:     LoadPackage: 776.478393ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:     CallBeginCacheForCookedPlatformData: 4.723120ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:     PostLoadPackageFixup: 7.219203ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:     UnsolicitedMarkup: 6.617190ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:       GetObjectsWithOuter: 0.542115ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:       GeneratePackageNames: 5.705709ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         UnsolicitedPackageAlreadyCooked: 2.454761ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         PackageCast: 0.664564ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         FullGCAssetsContains: 0.680586ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         AddUnassignedPackageToManifest: 0.000000ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         GetCachedName: 0.878187ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         AddToPackageList: 2.418589ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:     SavingPackages: 1395.358998ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:       EnqueueUnsavedPackages: 1.442509ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:       PrecachePlatformDataForNextPackage: 0.535134ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:       PrecachePlatformDataForNextNextPackage: 76.031245ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:       SaveCookedPackage: 1302.137237ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         LoadPackage: 0.643384ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:         GEditorSavePackage: 1276.768619ms
+[2020.03.25-16.10.48:031][ 75]LogCook: Display:           ConvertingBlueprints: 13.664443ms
+[2020.03.25-16.10.48:032][ 75]LogCook: Display:           VerifyCanCookPackage: 1.850126ms
+[2020.03.25-16.10.48:032][ 75]LogCook: Display:   GeneratingBlueprintAssets: 3.603101ms
+[2020.03.25-16.10.48:032][ 75]LogCook: Display:   SavingCurrentIniSettings: 55.055400ms
+[2020.03.25-16.10.48:032][ 75]LogCook: Display:     ProcessingAccessedStrings: 15.065299ms
+[2020.03.25-16.10.48:032][ 75]LogCook: Display:   SavingAssetRegistry: 2042.984100ms
+[2020.03.25-16.10.48:032][ 75]LogCook: Display:     BuildChunkManifest: 468.584519ms
+[2020.03.25-16.10.48:032][ 75]LogCook: Display:     SaveManifests: 3.890498ms
+[2020.03.25-16.10.48:032][ 75]LogCook: Display:     SaveRealAssetRegistry: 1360.741999ms
+[2020.03.25-16.10.48:032][ 75]LogCook: Display:     WriteCookerOpenOrder: 208.644370ms
+[2020.03.25-16.10.48:032][ 75]LogCook: Display: IntStats:
+[2020.03.25-16.10.48:032][ 75]LogCook: Display:   LoadPackage=23
+[2020.03.25-16.10.48:032][ 75]LogCook: Display:   SavedPackage=380
+[2020.03.25-16.10.48:072][ 81]LogPlayLevel: Completed Launch On Stage: Cooking in the editor, Time: 5.110067
+[2020.03.25-16.10.48:766][164]LogPlayLevel: Running AutomationTool...
+[2020.03.25-16.10.49:024][195]LogPlayLevel: Parsing command line: -ScriptsForProject=C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/VrBingo.uproject BuildCookRun -project=C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/VrBingo.uproject -noP4 -clientconfig=Development -serverconfig=Development -nocompile -nocompileeditor -installed -ue4exe=UE4Editor-Cmd.exe -utf8output -platform=Win64 -targetplatform=Win64 -ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled -map=/Game/VirtualRealityBP/Maps/StartupMap -skipcook -CookInEditor -iterativecooking -compressed -iterativedeploy -stage -deploy -cmdline="/Game/VirtualRealityBP/Maps/StartupMap -Messaging" -device=WindowsNoEditor@THE-STORM-TROOP -addcmdline="-SessionId=96EA018D4D2EA26DC62CFB996AA31F45 -SessionOwner='owner' -SessionName='Launch On Device'  " -run
+[2020.03.25-16.10.49:549][258]LogPlayLevel: Setting up ProjectParams for C:\Users\owner\Documents\GitHub\VR-Bingo\VrBingo\VrBingo.uproject
+[2020.03.25-16.10.49:640][269]LogPlayLevel: ********** STAGE COMMAND STARTED **********
+[2020.03.25-16.10.49:757][283]LogPlayLevel: Creating Staging Manifest...
+[2020.03.25-16.10.49:757][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\BaseEditor.ini
+[2020.03.25-16.10.49:757][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\BaseEditorKeyBindings.ini
+[2020.03.25-16.10.49:757][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\BaseEditorLayout.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\BaseEditorSettings.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\BaseLightmass.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\Category.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\Editor.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\EditorTutorials.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\Engine.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\Keywords.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\PortableObjectExport.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\PortableObjectImport.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\PropertyNames.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\RepairData.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\ResourceFileGen.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\ToolTips.ini
+[2020.03.25-16.10.49:758][283]LogPlayLevel: Excluding config file C:\Program Files\Epic Games\UE_4.20\Engine\Config\Localization\WordCount.ini
+[2020.03.25-16.10.49:799][288]LogPlayLevel: Excluding config file C:\Users\owner\Documents\GitHub\VR-Bingo\VrBingo\Config\DefaultEditorPerProjectUserSettings.ini
+[2020.03.25-16.10.49:841][293]LogPlayLevel: Completed Launch On Stage: Build Task, Time: 1.265225
+[2020.03.25-16.10.49:849][294]LogPlayLevel: Cleaning Stage Directory: C:\Users\owner\Documents\GitHub\VR-Bingo\VrBingo\Saved\StagedBuilds\WindowsNoEditor
+[2020.03.25-16.10.50:307][349]LogPlayLevel: Copying NonUFSFiles to staging directory: C:\Users\owner\Documents\GitHub\VR-Bingo\VrBingo\Saved\StagedBuilds\WindowsNoEditor
+[2020.03.25-16.10.50:824][411]LogPlayLevel: Copying DebugFiles to staging directory: C:\Users\owner\Documents\GitHub\VR-Bingo\VrBingo\Saved\StagedBuilds\WindowsNoEditor
+[2020.03.25-16.10.55:833][ 12]LogPlayLevel: Copying UFSFiles to staging directory: C:\Users\owner\Documents\GitHub\VR-Bingo\VrBingo\Saved\StagedBuilds\WindowsNoEditor
+[2020.03.25-16.10.55:849][ 14]LogPlayLevel: ********** STAGE COMMAND COMPLETED **********
+[2020.03.25-16.10.55:849][ 14]LogPlayLevel: ********** PACKAGE COMMAND STARTED **********
+[2020.03.25-16.10.55:859][ 15]LogPlayLevel: ********** PACKAGE COMMAND COMPLETED **********
+[2020.03.25-16.10.55:883][ 18]LogPlayLevel: ********** DEPLOY COMMAND STARTED **********
+[2020.03.25-16.10.55:883][ 18]LogPlayLevel: WARNING: Win64 does not implement Deploy...
+[2020.03.25-16.10.55:883][ 18]LogPlayLevel: ********** DEPLOY COMMAND COMPLETED **********
+[2020.03.25-16.10.55:883][ 18]LogPlayLevel: ********** RUN COMMAND STARTED **********
+[2020.03.25-16.10.55:925][ 23]LogPlayLevel: Starting Client....
+[2020.03.25-16.10.56:099][ 44]LogPlayLevel: Completed Launch On Stage: Deploy Task, Time: 5.755009
+[2020.03.25-16.10.56:167][ 52]LogPlayLevel: Running: C:\Users\owner\Documents\GitHub\VR-Bingo\VrBingo\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\Win64\UE4Game.exe ../../../VrBingo/VrBingo.uproject /Game/VirtualRealityBP/Maps/StartupMap -stdout -abslog="C:\Users\owner\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.20\Client.log" -Messaging -Windowed -CrashForUAT -SessionId=96EA018D4D2EA26DC62CFB996AA31F45 -SessionOwner="owner" -SessionName="Launch On Device"
+[2020.03.25-16.10.57:124][167]LogPlayLevel: LogInit: Display: Running engine for game: VrBingo
+[2020.03.25-16.10.57:241][181]LogPlayLevel: LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+[2020.03.25-16.10.57:299][188]LogPlayLevel: LogStreaming: Display: Took  0.046s to configure plugins.
+[2020.03.25-16.10.57:308][189]LogPlayLevel: LogStreaming: Display: Took  0.000s to delete old logs.
+[2020.03.25-16.10.57:366][196]LogPlayLevel: LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: true
+[2020.03.25-16.10.57:568][220]LogPlayLevel: [2020.03.25-16.10.57:361][  0]LogHAL: Display: Platform has ~ 32 GB [34283347968 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.25-16.10.58:416][322]LogPlayLevel: [2020.03.25-16.10.57:559][  0]LogStreaming: Display: Took  0.039s to InitEngineTextLocalization.
+[2020.03.25-16.10.58:416][322]LogPlayLevel: [2020.03.25-16.10.58:414][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Global and no native library supported.
+[2020.03.25-16.10.58:416][322]LogPlayLevel: [2020.03.25-16.10.58:414][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Global_SC and no native library supported.
+[2020.03.25-16.10.58:416][322]LogPlayLevel: [2020.03.25-16.10.58:414][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D and no native library supported.
+[2020.03.25-16.10.58:416][322]LogPlayLevel: [2020.03.25-16.10.58:414][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D_SC and no native library supported.
+[2020.03.25-16.10.58:416][322]LogPlayLevel: [2020.03.25-16.10.58:414][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D and no native library supported.
+[2020.03.25-16.10.58:416][322]LogPlayLevel: [2020.03.25-16.10.58:414][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D_SC and no native library supported.
+[2020.03.25-16.10.58:416][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys and no native library supported.
+[2020.03.25-16.10.58:416][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys_SC and no native library supported.
+[2020.03.25-16.10.58:416][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys and no native library supported.
+[2020.03.25-16.10.58:416][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys_SC and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor_SC and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor_SC and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent_SC and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent_SC and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing_SC and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:415][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing_SC and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:416][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:416][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR_SC and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:416][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:416][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR_SC and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:416][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:416][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR_SC and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:416][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR and no native library supported.
+[2020.03.25-16.10.58:417][322]LogPlayLevel: [2020.03.25-16.10.58:416][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR_SC and no native library supported.
+[2020.03.25-16.10.58:517][334]LogPlayLevel: [2020.03.25-16.10.58:416][  0]LogRHI: Display: Failed to open default shader pipeline cache for VrBingo using shader platform 0.
+[2020.03.25-16.10.58:517][334]LogPlayLevel: [2020.03.25-16.10.58:513][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VrBingo and no native library supported.
+[2020.03.25-16.10.58:524][335]LogPlayLevel: [2020.03.25-16.10.58:513][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VrBingo_SC and no native library supported.
+[2020.03.25-16.10.58:524][335]LogPlayLevel: [2020.03.25-16.10.58:519][  0]LogRHI: Display: Failed to open default shader pipeline cache for VrBingo using shader platform 0.
+[2020.03.25-16.10.58:524][335]LogPlayLevel: [2020.03.25-16.10.58:519][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VrBingo and no native library supported.
+[2020.03.25-16.10.58:524][335]LogPlayLevel: [2020.03.25-16.10.58:519][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VrBingo_SC and no native library supported.
+[2020.03.25-16.10.58:542][337]LogPlayLevel: [2020.03.25-16.10.58:519][  0]LogRHI: Display: Failed to open default shader pipeline cache for VrBingo using shader platform 0.
+[2020.03.25-16.10.58:650][350]LogPlayLevel: [2020.03.25-16.10.58:539][  0]LogStreaming: Display: Took  0.020s to InitGameTextLocalization.
+[2020.03.25-16.11.00:466][450]LogPlayLevel: [2020.03.25-16.10.58:648][  0]LogStreaming: Display: Flushing async loaders.
+[2020.03.25-16.11.00:466][450]LogPlayLevel: [2020.03.25-16.11.00:219][  0]LogConsoleManager: Warning: Setting the console variable 'r.VSync' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2020.03.25-16.11.00:466][450]LogPlayLevel: [2020.03.25-16.11.00:223][  0]LogInit: Display: Game Engine Initialized.
+[2020.03.25-16.11.00:466][450]LogPlayLevel: [2020.03.25-16.11.00:223][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.03.25-16.11.00:800][451]LogPlayLevel: [2020.03.25-16.11.00:233][  0]LogInit: Display: Starting Game.
+[2020.03.25-16.12.27:801][712]LogPlayLevel: [2020.03.25-16.11.00:482][  0]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2020.03.25-16.12.29:993][741]LogPlayLevel: Completed Launch On Stage: Run Task, Time: 93.395252
+[2020.03.25-16.12.36:342][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GenericHMD2)
+[2020.03.25-16.12.39:414][848]LogEditorViewport: Clicking Background
+[2020.03.25-16.14.02:560][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.14.02:756][672]LogSlate: Window 'VrBingo - Unreal Editor' being destroyed
+[2020.03.25-16.14.02:946][673]Cmd: QUIT_EDITOR
+[2020.03.25-16.14.02:997][673]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.25-16.14.03:009][673]LogExit: Preparing to exit.
+[2020.03.25-16.14.04:032][673]LogExit: Editor shut down
+[2020.03.25-16.14.04:033][673]LogExit: Transaction tracking system shut down
+[2020.03.25-16.14.04:288][673]LogExit: Object subsystem successfully closed.
+[2020.03.25-16.14.04:331][673]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.03.25-16.14.04:332][673]LogD3D11RHI: Shutdown
+[2020.03.25-16.14.04:332][673]LogD3D11RHI: CleanupD3DDevice
+[2020.03.25-16.14.04:334][673]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.03.25-16.14.04:362][673]LogModuleManager: Shutting down and abandoning module BlueprintCompilerCppBackend (616)
+[2020.03.25-16.14.04:363][673]LogModuleManager: Shutting down and abandoning module LauncherServices (612)
+[2020.03.25-16.14.04:363][673]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2020.03.25-16.14.04:363][673]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2020.03.25-16.14.04:363][673]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2020.03.25-16.14.04:364][673]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2020.03.25-16.14.04:364][673]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2020.03.25-16.14.04:364][673]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2020.03.25-16.14.04:364][673]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2020.03.25-16.14.04:364][673]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2020.03.25-16.14.04:364][673]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2020.03.25-16.14.04:364][673]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2020.03.25-16.14.04:364][673]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2020.03.25-16.14.04:364][673]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2020.03.25-16.14.04:365][673]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2020.03.25-16.14.04:366][673]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2020.03.25-16.14.04:779][673]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2020.03.25-16.14.04:833][673]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2020.03.25-16.14.04:834][673]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2020.03.25-16.14.04:969][673]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2020.03.25-16.14.04:975][673]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.03.25-16.14.04:976][673]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.03.25-16.14.05:078][673]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.03.25-16.14.05:179][673]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2020.03.25-16.14.05:179][673]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2020.03.25-16.14.05:179][673]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2020.03.25-16.14.05:179][673]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2020.03.25-16.14.05:179][673]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2020.03.25-16.14.05:179][673]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2020.03.25-16.14.05:179][673]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2020.03.25-16.14.05:180][673]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2020.03.25-16.14.05:180][673]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2020.03.25-16.14.05:180][673]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2020.03.25-16.14.05:180][673]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2020.03.25-16.14.05:180][673]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2020.03.25-16.14.05:182][673]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2020.03.25-16.14.05:182][673]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2020.03.25-16.14.05:182][673]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2020.03.25-16.14.05:182][673]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2020.03.25-16.14.05:182][673]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2020.03.25-16.14.05:182][673]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2020.03.25-16.14.05:184][673]LogModuleManager: Shutting down and abandoning module Media (243)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2020.03.25-16.14.05:192][673]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module Core (188)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2020.03.25-16.14.05:194][673]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2020.03.25-16.14.05:195][673]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2020.03.25-16.14.05:195][673]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2020.03.25-16.14.05:195][673]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2020.03.25-16.14.05:195][673]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2020.03.25-16.14.05:195][673]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2020.03.25-16.14.05:261][673]LogDerivedDataCache: Shutdown
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2020.03.25-16.14.05:261][673]LogXGEController: Cleaning working directory: C:/Users/owner/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.03.25-16.14.05:261][673]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2020.03.25-16.14.05:264][673]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.03.25-16.14.05:264][673]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.03.25-16.14.05:265][673]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2020.03.25-16.14.05:265][673]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2020.03.25-16.14.05:277][673]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2020.03.25-16.14.05:279][673]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2020.03.25-16.14.05:279][673]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2020.03.25-16.14.05:303][673]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2020.03.25-16.14.05:303][673]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.03.25-16.14.05:303][673]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8A50ED0D-440C-B6BF-0885-D4A8DBAB8D9D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=f79a207143f9edb124d7f38e5f3a7615%7Ce50755ba45744cecb4e7e02fbfd1048e%7C40a5e187-02fd-4d6c-8f21-c58c8251179e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.03.25-16.14.05:309][673]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2020.03.25-16.14.05:310][673]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.03.25-16.14.05:310][673]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.03.25-16.14.05:311][673]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.03.25-16.14.05:334][673]LogExit: Exiting.
+[2020.03.25-16.14.05:349][673]Log file closed, 03/25/20 10:14:05
