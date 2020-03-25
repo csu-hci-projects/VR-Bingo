@@ -1,4 +1,4 @@
-﻿Log file open, 03/24/20 16:13:55
+﻿Log file open, 03/25/20 10:38:24
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -7,10 +7,11 @@ LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
-LogInit: Display: Running engine for game: VrBingo
+LogInit: Display: Running engine without a game
 LogPlatformFile: Not using cached read wrapper
+LogInit: Display: Loading recent project file: ../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/VrBingo.uproject
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.554707
+LogStats: Stats thread started at 0.537939
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +94,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.126s to configure plugins.
+LogStreaming: Display: Took  0.132s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +124,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -EpicPortal  -epicusername="SolomanKane18" -epicuserid=e50755ba45744cecb4e7e02fbfd1048e -epiclocale=en
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,466 +148,424 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.03.24-22.13.56:240][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.24-22.13.56:241][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.24-22.13.56:253][  0]LogHAL: Display: Platform has ~ 32 GB [34283347968 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.03.24-22.13.56:253][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2020.03.24-22.13.56:253][  0]LogInit: Going up to parent DeviceProfile []
-[2020.03.24-22.13.56:254][  0]LogInit: Computer: THE-STORM-TROOP
-[2020.03.24-22.13.56:254][  0]LogInit: User: owner
-[2020.03.24-22.13.56:254][  0]LogInit: CPU Page size=4096, Cores=8
-[2020.03.24-22.13.56:254][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.24-22.13.56:254][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2020.03.24-22.13.56:254][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.24-22.13.56:254][  0]LogMemory: Process Physical Memory: 105.82 MB used, 105.83 MB peak
-[2020.03.24-22.13.56:254][  0]LogMemory: Process Virtual Memory: 91.26 MB used, 91.26 MB peak
-[2020.03.24-22.13.56:254][  0]LogMemory: Physical Memory: 7590.07 MB used,  25105.08 MB free, 32695.15 MB total
-[2020.03.24-22.13.56:254][  0]LogMemory: Virtual Memory: 4662.78 MB used,  25105.08 MB free, 134217728.00 MB total
-[2020.03.24-22.13.56:284][  0]LogInit: Using OS detected language (en-US).
-[2020.03.24-22.13.56:284][  0]LogInit: Using OS detected locale (en-US).
-[2020.03.24-22.13.56:285][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.03.24-22.13.56:609][  0]LogStreaming: Display: Took  0.324s to InitEngineTextLocalization.
-[2020.03.24-22.13.56:609][  0]LogInit: Setting process to per monitor DPI aware
-[2020.03.24-22.13.56:651][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.03.24-22.13.56:651][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.03.24-22.13.56:903][  0]LogHMD: Failed to initialize OpenVR with code 117
-[2020.03.24-22.13.56:903][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.24-22.13.56:998][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2020.03.24-22.13.56:999][  0]LogD3D11RHI:       8079/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.03.24-22.13.57:001][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.24-22.13.57:001][  0]LogD3D11RHI:       0/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.24-22.13.57:001][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.24-22.13.57:015][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.24-22.13.57:015][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2020.03.24-22.13.57:015][  0]LogWindows: EnumDisplayDevices:
-[2020.03.24-22.13.57:015][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2020.03.24-22.13.57:015][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2020.03.24-22.13.57:015][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2020.03.24-22.13.57:016][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2020.03.24-22.13.57:016][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.03.24-22.13.57:016][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2020.03.24-22.13.57:016][  0]LogD3D11RHI:   Driver Version: 442.74 (internal:26.21.14.4274, unified:442.74)
-[2020.03.24-22.13.57:016][  0]LogD3D11RHI:      Driver Date: 3-13-2020
-[2020.03.24-22.13.57:016][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2020.03.24-22.13.57:071][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.24-22.13.57:091][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.03.24-22.13.57:096][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Intermediate/Shaders/WorkingDirectory/3836/).
-[2020.03.24-22.13.57:096][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/owner/AppData/Local/Temp/UnrealShaderWorkingDir/DE3636554C47AB8A01CD10973CF4A83F/'.
-[2020.03.24-22.13.57:360][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.03.24-22.13.57:373][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.03.24-22.13.57:386][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.03.24-22.13.57:400][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.03.24-22.13.57:413][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.03.24-22.13.57:427][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.03.24-22.13.57:440][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.03.24-22.13.57:454][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.03.24-22.13.57:460][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:542][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.24-22.13.57:543][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.03.24-22.13.57:607][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.03.24-22.13.57:607][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.03.24-22.13.57:631][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.03.24-22.13.57:631][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.03.24-22.13.57:644][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.03.24-22.13.57:657][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.03.24-22.13.57:670][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.03.24-22.13.57:683][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.03.24-22.13.57:693][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2020.03.24-22.13.57:693][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.24-22.13.57:739][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.03.24-22.13.57:739][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.03.24-22.13.57:739][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.24-22.13.58:584][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.24-22.13.58:642][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2020.03.24-22.13.58:642][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2020.03.24-22.13.58:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.24-22.13.58:643][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.24-22.13.58:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.24-22.13.58:643][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.24-22.13.58:658][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.24-22.13.58:671][  0]LogDerivedDataCache: Using Local data cache path C:/Users/owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.24-22.13.58:671][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.03.24-22.13.58:671][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.03.24-22.13.58:687][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.24-22.13.58:689][  0]LogSlate: Using FreeType 2.6.0
-[2020.03.24-22.13.58:689][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.24-22.13.58:759][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
-[2020.03.24-22.13.59:105][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.24-22.13.59:236][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.03.24-22.13.59:239][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.03.24-22.13.59:239][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.03.24-22.13.59:239][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.24-22.13.59:239][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.03.24-22.13.59:257][  0]LogNetVersion: VrBingo 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3676908297)
-[2020.03.24-22.13.59:803][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.145721 seconds
-[2020.03.24-22.13.59:812][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2020.03.24-22.13.59:812][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2020.03.24-22.13.59:812][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.24-22.14.00:591][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.24-22.14.00:618][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.24-22.14.00:758][  0]SourceControl: Source control is disabled
-[2020.03.24-22.14.00:758][  0]SourceControl: Source control is disabled
-[2020.03.24-22.14.00:759][  0]SourceControl: Source control is disabled
-[2020.03.24-22.14.00:760][  0]SourceControl: Source control is disabled
-[2020.03.24-22.14.00:928][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.24-22.14.01:132][  0]LogOcInput: OculusInput pre-init called
-[2020.03.24-22.14.01:186][  0]LogEngine: Initializing Engine...
-[2020.03.24-22.14.07:010][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.03.24-22.14.07:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.03.24-22.14.07:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.03.24-22.14.07:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.03.24-22.14.07:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.03.24-22.14.07:186][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.03.24-22.14.07:196][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.24-22.14.07:276][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.03.24-22.14.07:318][  0]LogInit: FAudioDevice initialized.
-[2020.03.24-22.14.07:318][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.03.24-22.14.07:654][  0]LogDerivedDataCache: Saved boot cache 0.34s 86MB C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2020.03.24-22.14.07:664][  0]LogInit: Texture streaming: Enabled
-[2020.03.24-22.14.07:679][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.24-22.14.07:704][  0]LogInit: Transaction tracking system initialized
-[2020.03.24-22.14.07:719][  0]BlueprintLog: New page: Editor Load
-[2020.03.24-22.14.07:776][  0]LocalizationService: Localization service is disabled
-[2020.03.24-22.14.08:049][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.24-22.14.08:049][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.24-22.14.08:049][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.03.24-22.14.08:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.03.24-22.14.08:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.03.24-22.14.08:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.03.24-22.14.08:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.03.24-22.14.08:104][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/' took 0.01s
-[2020.03.24-22.14.08:186][  0]SourceControl: Source control is disabled
-[2020.03.24-22.14.08:187][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.20/FeaturePacks/StarterContent.upack)
-[2020.03.24-22.14.08:192][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2020.03.24-22.14.08:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2020.03.24-22.14.08:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2020.03.24-22.14.08:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2020.03.24-22.14.08:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2020.03.24-22.14.08:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2020.03.24-22.14.08:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2020.03.24-22.14.08:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2020.03.24-22.14.08:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2020.03.24-22.14.08:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2020.03.24-22.14.08:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2020.03.24-22.14.08:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2020.03.24-22.14.08:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Collapse01.uasset"
-[2020.03.24-22.14.08:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Collapse02.uasset"
-[2020.03.24-22.14.08:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2020.03.24-22.14.08:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Explosion01.uasset"
-[2020.03.24-22.14.08:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Explosion02.uasset"
-[2020.03.24-22.14.08:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2020.03.24-22.14.08:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Fire01.uasset"
-[2020.03.24-22.14.08:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2020.03.24-22.14.08:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2020.03.24-22.14.08:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2020.03.24-22.14.08:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Light01.uasset"
-[2020.03.24-22.14.08:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2020.03.24-22.14.08:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Light02.uasset"
-[2020.03.24-22.14.08:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2020.03.24-22.14.08:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Smoke01.uasset"
-[2020.03.24-22.14.08:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2020.03.24-22.14.08:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2020.03.24-22.14.08:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2020.03.24-22.14.08:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2020.03.24-22.14.08:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2020.03.24-22.14.08:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2020.03.24-22.14.08:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2020.03.24-22.14.08:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Steam01.uasset"
-[2020.03.24-22.14.08:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2020.03.24-22.14.08:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2020.03.24-22.14.08:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2020.03.24-22.14.08:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2020.03.24-22.14.08:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2020.03.24-22.14.08:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2020.03.24-22.14.08:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2020.03.24-22.14.08:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2020.03.24-22.14.08:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2020.03.24-22.14.08:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2020.03.24-22.14.08:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2020.03.24-22.14.08:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2020.03.24-22.14.08:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2020.03.24-22.14.08:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2020.03.24-22.14.08:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2020.03.24-22.14.08:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2020.03.24-22.14.08:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2020.03.24-22.14.08:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2020.03.24-22.14.08:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2020.03.24-22.14.08:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2020.03.24-22.14.08:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Maps/Minimal_Default.umap"
-[2020.03.24-22.14.08:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2020.03.24-22.14.08:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Maps/StarterMap.umap"
-[2020.03.24-22.14.08:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2020.03.24-22.14.08:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2020.03.24-22.14.08:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2020.03.24-22.14.08:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2020.03.24-22.14.08:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2020.03.24-22.14.08:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2020.03.24-22.14.08:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2020.03.24-22.14.08:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2020.03.24-22.14.08:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2020.03.24-22.14.08:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2020.03.24-22.14.08:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2020.03.24-22.14.08:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2020.03.24-22.14.08:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2020.03.24-22.14.08:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2020.03.24-22.14.08:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2020.03.24-22.14.08:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2020.03.24-22.14.08:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2020.03.24-22.14.08:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2020.03.24-22.14.08:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Glass.uasset"
-[2020.03.24-22.14.08:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2020.03.24-22.14.08:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2020.03.24-22.14.08:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2020.03.24-22.14.08:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2020.03.24-22.14.08:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2020.03.24-22.14.08:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2020.03.24-22.14.08:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2020.03.24-22.14.08:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2020.03.24-22.14.08:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2020.03.24-22.14.08:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2020.03.24-22.14.08:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2020.03.24-22.14.08:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2020.03.24-22.14.08:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2020.03.24-22.14.08:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2020.03.24-22.14.08:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2020.03.24-22.14.08:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2020.03.24-22.14.08:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2020.03.24-22.14.08:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2020.03.24-22.14.08:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2020.03.24-22.14.08:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2020.03.24-22.14.08:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2020.03.24-22.14.08:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2020.03.24-22.14.08:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2020.03.24-22.14.08:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2020.03.24-22.14.08:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2020.03.24-22.14.08:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2020.03.24-22.14.08:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/P_Explosion.uasset"
-[2020.03.24-22.14.08:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/P_Fire.uasset"
-[2020.03.24-22.14.08:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/P_Smoke.uasset"
-[2020.03.24-22.14.08:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/P_Sparks.uasset"
-[2020.03.24-22.14.08:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2020.03.24-22.14.08:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2020.03.24-22.14.08:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2020.03.24-22.14.08:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2020.03.24-22.14.08:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2020.03.24-22.14.08:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2020.03.24-22.14.08:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2020.03.24-22.14.08:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2020.03.24-22.14.08:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2020.03.24-22.14.08:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2020.03.24-22.14.09:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2020.03.24-22.14.09:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/MaterialSphere.uasset"
-[2020.03.24-22.14.09:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_Bush.uasset"
-[2020.03.24-22.14.09:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_Chair.uasset"
-[2020.03.24-22.14.09:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2020.03.24-22.14.09:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_Couch.uasset"
-[2020.03.24-22.14.09:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_Door.uasset"
-[2020.03.24-22.14.09:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2020.03.24-22.14.09:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2020.03.24-22.14.09:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2020.03.24-22.14.09:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2020.03.24-22.14.09:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2020.03.24-22.14.09:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2020.03.24-22.14.09:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2020.03.24-22.14.09:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_Rock.uasset"
-[2020.03.24-22.14.09:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_Shelf.uasset"
-[2020.03.24-22.14.09:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_Stairs.uasset"
-[2020.03.24-22.14.09:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_Statue.uasset"
-[2020.03.24-22.14.09:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_TableRound.uasset"
-[2020.03.24-22.14.09:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2020.03.24-22.14.09:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2020.03.24-22.14.09:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2020.03.24-22.14.09:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2020.03.24-22.14.09:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2020.03.24-22.14.09:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2020.03.24-22.14.09:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2020.03.24-22.14.09:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2020.03.24-22.14.09:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2020.03.24-22.14.09:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2020.03.24-22.14.09:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2020.03.24-22.14.09:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2020.03.24-22.14.09:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2020.03.24-22.14.09:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2020.03.24-22.14.09:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2020.03.24-22.14.09:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2020.03.24-22.14.09:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2020.03.24-22.14.09:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2020.03.24-22.14.09:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2020.03.24-22.14.09:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2020.03.24-22.14.09:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2020.03.24-22.14.09:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2020.03.24-22.14.09:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2020.03.24-22.14.09:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2020.03.24-22.14.09:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2020.03.24-22.14.09:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2020.03.24-22.14.09:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2020.03.24-22.14.09:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2020.03.24-22.14.09:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2020.03.24-22.14.09:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2020.03.24-22.14.09:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2020.03.24-22.14.09:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2020.03.24-22.14.09:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2020.03.24-22.14.09:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2020.03.24-22.14.09:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2020.03.24-22.14.09:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2020.03.24-22.14.09:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2020.03.24-22.14.09:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2020.03.24-22.14.09:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2020.03.24-22.14.09:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2020.03.24-22.14.09:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2020.03.24-22.14.09:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2020.03.24-22.14.09:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2020.03.24-22.14.09:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2020.03.24-22.14.09:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2020.03.24-22.14.09:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2020.03.24-22.14.09:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2020.03.24-22.14.09:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2020.03.24-22.14.09:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2020.03.24-22.14.09:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2020.03.24-22.14.09:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2020.03.24-22.14.09:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2020.03.24-22.14.09:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2020.03.24-22.14.09:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2020.03.24-22.14.09:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2020.03.24-22.14.09:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2020.03.24-22.14.09:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2020.03.24-22.14.09:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2020.03.24-22.14.09:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2020.03.24-22.14.09:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2020.03.24-22.14.09:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2020.03.24-22.14.09:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2020.03.24-22.14.09:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2020.03.24-22.14.09:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2020.03.24-22.14.09:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2020.03.24-22.14.09:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2020.03.24-22.14.09:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2020.03.24-22.14.09:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2020.03.24-22.14.09:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2020.03.24-22.14.09:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2020.03.24-22.14.09:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2020.03.24-22.14.09:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Door_M.uasset"
-[2020.03.24-22.14.09:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Door_N.uasset"
-[2020.03.24-22.14.09:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2020.03.24-22.14.09:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2020.03.24-22.14.09:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2020.03.24-22.14.09:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2020.03.24-22.14.09:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2020.03.24-22.14.09:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2020.03.24-22.14.09:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2020.03.24-22.14.09:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2020.03.24-22.14.09:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2020.03.24-22.14.09:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2020.03.24-22.14.09:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2020.03.24-22.14.09:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2020.03.24-22.14.09:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2020.03.24-22.14.09:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2020.03.24-22.14.09:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2020.03.24-22.14.09:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2020.03.24-22.14.09:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2020.03.24-22.14.09:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2020.03.24-22.14.09:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2020.03.24-22.14.09:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2020.03.24-22.14.09:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2020.03.24-22.14.09:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2020.03.24-22.14.09:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2020.03.24-22.14.09:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2020.03.24-22.14.09:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2020.03.24-22.14.09:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2020.03.24-22.14.09:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2020.03.24-22.14.09:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2020.03.24-22.14.09:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2020.03.24-22.14.09:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2020.03.24-22.14.09:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2020.03.24-22.14.09:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2020.03.24-22.14.09:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2020.03.24-22.14.10:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2020.03.24-22.14.10:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2020.03.24-22.14.10:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2020.03.24-22.14.10:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2020.03.24-22.14.10:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2020.03.24-22.14.10:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2020.03.24-22.14.10:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2020.03.24-22.14.10:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2020.03.24-22.14.10:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2020.03.24-22.14.10:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2020.03.24-22.14.10:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2020.03.24-22.14.10:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2020.03.24-22.14.10:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2020.03.24-22.14.10:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2020.03.24-22.14.10:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2020.03.24-22.14.10:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2020.03.24-22.14.10:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2020.03.24-22.14.10:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2020.03.24-22.14.10:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Water_M.uasset"
-[2020.03.24-22.14.10:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Water_N.uasset"
-[2020.03.24-22.14.10:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2020.03.24-22.14.10:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2020.03.24-22.14.10:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2020.03.24-22.14.10:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2020.03.24-22.14.10:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2020.03.24-22.14.10:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2020.03.24-22.14.10:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2020.03.24-22.14.10:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2020.03.24-22.14.10:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2020.03.24-22.14.10:321][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 26 NumSamples 1 (Frame:1).
-[2020.03.24-22.14.10:382][  0]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/Floor_400x400D30068954AF773347E2771ABF941466C.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2020.03.24-22.14.10:386][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2020.03.24-22.14.10:393][  0]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.24-22.14.10:394][  0]LightingResults: New page: Lighting Build
-[2020.03.24-22.14.10:396][  0]MapCheck: New page: Map Check
-[2020.03.24-22.14.10:396][  0]LightingResults: New page: Lighting Build
-[2020.03.24-22.14.10:528][  0]LogAIModule: Creating AISystem for world StartupMap
-[2020.03.24-22.14.10:534][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.24-22.14.10:565][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.24-22.14.10:659][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 94.356ms to complete.
-[2020.03.24-22.14.10:659][  0]LogFileHelpers: Loading map 'StartupMap' took 0.266
-[2020.03.24-22.14.10:762][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.24-22.14.10:769][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.24-22.14.10:775][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.24-22.14.10:782][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.24-22.14.10:786][  0]LogCollectionManager: Loaded 0 collections in 0.000928 seconds
-[2020.03.24-22.14.10:829][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/Collections/' took 0.01s
-[2020.03.24-22.14.10:829][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/Developers/owner/Collections/' took 0.01s
-[2020.03.24-22.14.10:829][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/Collections/' took 0.01s
-[2020.03.24-22.14.10:830][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.03.24-22.14.10:838][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2572 classes and 603 folders.
-[2020.03.24-22.14.10:843][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.03.24-22.14.10:890][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.03.24-22.14.10:900][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2020.03.24-22.14.10:910][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.24-22.14.10:913][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.24-22.14.10:915][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.24-22.14.10:948][  0]LogRenderer: Reallocating scene render targets to support 1528x576 Format 26 NumSamples 1 (Frame:1).
-[2020.03.24-22.14.10:981][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.24-22.14.11:036][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.03.24-22.14.11:036][  0]LogLoad: (Engine Initialization) Total time: 16.84 seconds
-[2020.03.24-22.14.11:037][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.24-22.14.11:081][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.03.24-22.14.11:105][  1]LogAssetRegistry: Asset discovery search completed in 12.3676 seconds
-[2020.03.24-22.14.11:106][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.03.24-22.14.11:106][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
-[2020.03.24-22.14.27:447][426]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.24-22.14.27:450][426]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.03.24-22.14.27:555][426]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/StartupMapE086B62940741247E1E2C2AD98BACA23.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/StartupMap.umap'
-[2020.03.24-22.14.27:618][426]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/StartupMap_BuiltDataD8823A1A40EF1DE00B75B98B9BCBA4B0.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
-[2020.03.24-22.15.06:803][949]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.38.24:330][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.25-16.38.24:330][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.25-16.38.24:344][  0]LogHAL: Display: Platform has ~ 32 GB [34283347968 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.25-16.38.24:344][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.03.25-16.38.24:344][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.25-16.38.24:345][  0]LogInit: Computer: THE-STORM-TROOP
+[2020.03.25-16.38.24:345][  0]LogInit: User: owner
+[2020.03.25-16.38.24:345][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.03.25-16.38.24:345][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.25-16.38.24:345][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.03.25-16.38.24:345][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.25-16.38.24:345][  0]LogMemory: Process Physical Memory: 101.65 MB used, 101.65 MB peak
+[2020.03.25-16.38.24:345][  0]LogMemory: Process Virtual Memory: 92.93 MB used, 92.93 MB peak
+[2020.03.25-16.38.24:345][  0]LogMemory: Physical Memory: 7195.61 MB used,  25499.54 MB free, 32695.15 MB total
+[2020.03.25-16.38.24:345][  0]LogMemory: Virtual Memory: 4663.40 MB used,  25499.54 MB free, 134217728.00 MB total
+[2020.03.25-16.38.24:383][  0]LogInit: Using OS detected language (en-US).
+[2020.03.25-16.38.24:383][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.25-16.38.24:384][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.25-16.38.24:705][  0]LogStreaming: Display: Took  0.323s to InitEngineTextLocalization.
+[2020.03.25-16.38.24:705][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.25-16.38.24:741][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.25-16.38.24:741][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.25-16.38.25:575][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.25-16.38.25:640][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2020.03.25-16.38.25:640][  0]LogD3D11RHI:       8079/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.03.25-16.38.25:642][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.25-16.38.25:642][  0]LogD3D11RHI:       0/0/16347 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.25-16.38.25:642][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.25-16.38.25:651][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.25-16.38.25:651][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.25-16.38.25:651][  0]LogWindows: EnumDisplayDevices:
+[2020.03.25-16.38.25:651][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2020.03.25-16.38.25:651][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2020.03.25-16.38.25:651][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.03.25-16.38.25:652][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.03.25-16.38.25:652][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.03.25-16.38.25:652][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2020.03.25-16.38.25:652][  0]LogD3D11RHI:   Driver Version: 442.74 (internal:26.21.14.4274, unified:442.74)
+[2020.03.25-16.38.25:652][  0]LogD3D11RHI:      Driver Date: 3-13-2020
+[2020.03.25-16.38.25:652][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2020.03.25-16.38.25:700][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.25-16.38.25:727][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.25-16.38.25:731][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Intermediate/Shaders/WorkingDirectory/23756/).
+[2020.03.25-16.38.25:731][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/owner/AppData/Local/Temp/UnrealShaderWorkingDir/0A6A3B214EF8FB2B3AED59802EE0E072/'.
+[2020.03.25-16.38.25:979][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.03.25-16.38.25:993][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.03.25-16.38.26:006][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.03.25-16.38.26:020][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.03.25-16.38.26:033][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.03.25-16.38.26:047][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.03.25-16.38.26:060][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.03.25-16.38.26:074][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.03.25-16.38.26:080][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:162][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:163][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:163][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.25-16.38.26:164][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.03.25-16.38.26:225][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.03.25-16.38.26:225][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.03.25-16.38.26:249][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.03.25-16.38.26:249][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.03.25-16.38.26:262][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.03.25-16.38.26:275][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.03.25-16.38.26:289][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.03.25-16.38.26:303][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.03.25-16.38.26:312][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.03.25-16.38.26:312][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.25-16.38.26:357][  0]LogXGEController: Cleaning working directory: C:/Users/owner/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.25-16.38.26:357][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.25-16.38.26:357][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.25-16.38.26:357][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.25-16.38.27:172][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.25-16.38.27:218][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.03.25-16.38.27:218][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.03.25-16.38.27:219][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.25-16.38.27:219][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.25-16.38.27:219][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.25-16.38.27:219][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.25-16.38.27:234][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.25-16.38.27:247][  0]LogDerivedDataCache: Using Local data cache path C:/Users/owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.25-16.38.27:247][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.25-16.38.27:247][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.25-16.38.27:263][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.25-16.38.27:264][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.25-16.38.27:265][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.25-16.38.27:334][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2020.03.25-16.38.27:649][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.25-16.38.27:693][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.03.25-16.38.27:696][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.03.25-16.38.27:696][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.25-16.38.27:696][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.25-16.38.27:696][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.03.25-16.38.27:778][  0]LogNetVersion: VrBingo 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3676908297)
+[2020.03.25-16.38.28:245][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.114440 seconds
+[2020.03.25-16.38.28:252][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.03.25-16.38.28:252][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2020.03.25-16.38.28:252][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.25-16.38.28:993][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.25-16.38.29:008][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.25-16.38.29:145][  0]SourceControl: Source control is disabled
+[2020.03.25-16.38.29:145][  0]SourceControl: Source control is disabled
+[2020.03.25-16.38.29:146][  0]SourceControl: Source control is disabled
+[2020.03.25-16.38.29:147][  0]SourceControl: Source control is disabled
+[2020.03.25-16.38.29:316][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.25-16.38.29:588][  0]LogOcInput: OculusInput pre-init called
+[2020.03.25-16.38.29:643][  0]LogEngine: Initializing Engine...
+[2020.03.25-16.38.29:727][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BC3D2433
+[2020.03.25-16.38.29:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.03.25-16.38.29:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.25-16.38.29:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.03.25-16.38.29:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.25-16.38.29:913][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.25-16.38.29:922][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.25-16.38.30:025][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-16.38.30:040][  0]LogInit: FAudioDevice initialized.
+[2020.03.25-16.38.30:040][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.25-16.38.30:130][  0]LogDerivedDataCache: Saved boot cache 0.09s 72MB C:/Users/owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.03.25-16.38.30:136][  0]LogInit: Texture streaming: Enabled
+[2020.03.25-16.38.30:151][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.25-16.38.30:170][  0]LogInit: Transaction tracking system initialized
+[2020.03.25-16.38.30:185][  0]BlueprintLog: New page: Editor Load
+[2020.03.25-16.38.30:244][  0]LocalizationService: Localization service is disabled
+[2020.03.25-16.38.30:502][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.25-16.38.30:502][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.25-16.38.30:502][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.03.25-16.38.30:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.03.25-16.38.30:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.25-16.38.30:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.03.25-16.38.30:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.25-16.38.30:621][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/' took 0.01s
+[2020.03.25-16.38.30:621][  0]SourceControl: Source control is disabled
+[2020.03.25-16.38.30:621][  0]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.38.30:622][  0]LightingResults: New page: Lighting Build
+[2020.03.25-16.38.30:623][  0]MapCheck: New page: Map Check
+[2020.03.25-16.38.30:624][  0]LightingResults: New page: Lighting Build
+[2020.03.25-16.38.30:747][  0]LogAIModule: Creating AISystem for world StartupMap
+[2020.03.25-16.38.30:753][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.38.30:785][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.38.30:881][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 94.866ms to complete.
+[2020.03.25-16.38.30:881][  0]LogFileHelpers: Loading map 'StartupMap' took 0.260
+[2020.03.25-16.38.31:000][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.31:007][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.31:014][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.31:021][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.31:026][  0]LogCollectionManager: Loaded 0 collections in 0.000910 seconds
+[2020.03.25-16.38.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/Collections/' took 0.01s
+[2020.03.25-16.38.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/Developers/owner/Collections/' took 0.01s
+[2020.03.25-16.38.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/Collections/' took 0.01s
+[2020.03.25-16.38.31:068][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.25-16.38.31:077][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2572 classes and 603 folders.
+[2020.03.25-16.38.31:082][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.25-16.38.31:127][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.25-16.38.31:136][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.03.25-16.38.31:146][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.25-16.38.31:150][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.25-16.38.31:152][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.25-16.38.31:205][  0]LogRenderer: Reallocating scene render targets to support 1528x576 Format 26 NumSamples 1 (Frame:1).
+[2020.03.25-16.38.31:333][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.25-16.38.31:333][  0]LogLoad: (Engine Initialization) Total time: 9.18 seconds
+[2020.03.25-16.38.31:333][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.25-16.38.31:374][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.25-16.38.31:389][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.25-16.38.31:413][  1]LogAssetRegistry: Asset discovery search completed in 4.1002 seconds
+[2020.03.25-16.38.31:414][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.03.25-16.38.31:414][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2020.03.25-16.38.35:401][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.38.37:760][728]LogTemp: Repeating last play command: VR Preview
+[2020.03.25-16.38.37:776][728]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap'
+[2020.03.25-16.38.37:776][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.25-16.38.37:788][728]PIE: New page: PIE session: StartupMap (Mar 25, 2020, 4:38:37 AM)
+[2020.03.25-16.38.37:788][728]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2020.03.25-16.38.37:793][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004683s)
+[2020.03.25-16.38.37:793][728]LogAIModule: Creating AISystem for world StartupMap
+[2020.03.25-16.38.37:794][728]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2020.03.25-16.38.37:794][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.005481s)
+[2020.03.25-16.38.37:944][728]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-16.38.37:952][728]LogInit: FAudioDevice initialized.
+[2020.03.25-16.38.37:964][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.38:054][728]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2020.03.25-16.38.38:054][728]LogLoad: Game class is 'GameModeBase'
+[2020.03.25-16.38.38:056][728]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2020.03.25-10.38.38
+[2020.03.25-16.38.38:057][728]LogWorld: Bringing up level for play took: 0.001644
+[2020.03.25-16.38.38:073][728]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2020.03.25-16.38.38:076][728]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 1.019
+[2020.03.25-16.38.38:076][728]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap'
+[2020.03.25-16.38.38:114][729]LogRenderer: Reallocating scene render targets to support 3600x2004 Format 26 NumSamples 1 (Frame:1).
+[2020.03.25-16.38.47:698][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap'
+[2020.03.25-16.38.47:774][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.38.47:817][590]LogSlate: Window 'VrBingo Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.25-16.38.47:850][590]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.25-16.38.47:850][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.StartupMap'
+[2020.03.25-16.38.47:905][591]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.03.25-16.39.01:323][184]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.39.01:329][184]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.25-16.39.01:340][184]LightingResults: New page: Lighting Build
+[2020.03.25-16.39.01:340][184]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2020.03.25-16.39.01:342][184]MapCheck: New page: Map Check
+[2020.03.25-16.39.01:342][184]LightingResults: New page: Lighting Build
+[2020.03.25-16.39.01:802][184]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.03.25-16.39.01:812][184]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.39.01:874][184]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.39.01:973][184]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 98.465ms to complete.
+[2020.03.25-16.39.01:973][184]LogFileHelpers: Loading map 'MotionControllerMap' took 0.650
+[2020.03.25-16.39.01:975][184]LogSlate: Window 'Open Level' being destroyed
+[2020.03.25-16.39.04:465][479]LogTemp: Repeating last play command: VR Preview
+[2020.03.25-16.39.04:480][479]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.03.25-16.39.04:480][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.25-16.39.04:481][479]PIE: New page: PIE session: MotionControllerMap (Mar 25, 2020, 4:39:04 AM)
+[2020.03.25-16.39.04:481][479]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.03.25-16.39.04:489][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008298s)
+[2020.03.25-16.39.04:489][479]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.03.25-16.39.04:490][479]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2020.03.25-16.39.04:490][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.009065s)
+[2020.03.25-16.39.04:620][479]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-16.39.04:629][479]LogInit: FAudioDevice initialized.
+[2020.03.25-16.39.04:639][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.39.04:710][479]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2020.03.25-16.39.04:710][479]LogLoad: Game class is 'GameModeBase'
+[2020.03.25-16.39.04:712][479]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2020.03.25-10.39.04
+[2020.03.25-16.39.04:712][479]LogWorld: Bringing up level for play took: 0.001759
+[2020.03.25-16.39.04:729][479]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.327
+[2020.03.25-16.39.04:730][479]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.03.25-16.40.27:098][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.03.25-16.40.27:180][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.40.27:222][873]LogSlate: Window 'VrBingo Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.25-16.40.27:257][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.25-16.40.27:258][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.03.25-16.40.27:318][874]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.03.25-16.46.03:872][ 43]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.46.04:816][149]LogEditorViewport: Clicking on Actor (context menu): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.46.04:838][149]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.46.06:636][361]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.46.16:861][153]LogSlate: Window 'New Level' being destroyed
+[2020.03.25-16.46.19:390][153]LogSlate: Window 'Save Content' being destroyed
+[2020.03.25-16.46.19:698][153]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/MotionControllerMap20A57917491BF0B23096C4AF0B7974AB.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2020.03.25-16.46.19:727][153]LogFileHelpers: Saving map 'MotionControllerMap' took 0.314
+[2020.03.25-16.46.19:732][153]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/VR-Basic.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.46.19:749][153]LightingResults: New page: Lighting Build
+[2020.03.25-16.46.19:750][153]LoadErrors: New page: Loading map: VR-Basic.umap
+[2020.03.25-16.46.19:778][153]MapCheck: New page: Map Check
+[2020.03.25-16.46.19:778][153]LightingResults: New page: Lighting Build
+[2020.03.25-16.46.20:012][153]LogAIModule: Creating AISystem for world Untitled_1
+[2020.03.25-16.46.20:019][153]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.46.20:054][153]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.46.20:156][153]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102.339ms to complete.
+[2020.03.25-16.46.20:156][153]LogFileHelpers: Loading map 'VR-Basic' took 0.424
+[2020.03.25-16.46.22:541][437]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.03.25-16.46.31:457][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.46.39:756][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.46.45:446][154]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.03.25-16.46.45:911][208]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (Player Start)
+[2020.03.25-16.46.45:933][208]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.47.20:902][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.47.25:180][331]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2020.03.25-16.47.26:672][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.47.26:789][518]LogTemp: Repeating last play command: VR Preview
+[2020.03.25-16.47.26:805][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.25-16.47.26:805][518]PIE: New page: PIE session: Untitled_1 (Mar 25, 2020, 4:47:26 AM)
+[2020.03.25-16.47.26:805][518]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.03.25-16.47.26:808][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002760s)
+[2020.03.25-16.47.26:808][518]LogAIModule: Creating AISystem for world Untitled_1
+[2020.03.25-16.47.26:809][518]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2020.03.25-16.47.26:809][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003538s)
+[2020.03.25-16.47.26:996][518]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-16.47.27:007][518]LogInit: FAudioDevice initialized.
+[2020.03.25-16.47.27:019][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.47.27:100][518]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2020.03.25-16.47.27:100][518]LogLoad: Game class is 'GameModeBase'
+[2020.03.25-16.47.27:102][518]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2020.03.25-10.47.27
+[2020.03.25-16.47.27:102][518]LogWorld: Bringing up level for play took: 0.001475
+[2020.03.25-16.47.27:119][518]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.062
+[2020.03.25-16.48.12:657][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.48.12:693][609]LogSlate: Window 'VrBingo Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.25-16.48.12:725][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.25-16.48.12:775][610]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.03.25-16.48.15:145][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (frozen_Room)
+[2020.03.25-16.48.15:853][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (frozen_Room)
+[2020.03.25-16.48.16:315][ 29]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.03.25-16.48.17:275][142]Cmd: DELETE
+[2020.03.25-16.48.17:275][142]Cmd: ACTOR DELETE
+[2020.03.25-16.48.17:277][142]LogEditorActor: Deleted Actor: PlayerStart
+[2020.03.25-16.48.17:307][142]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2020.03.25-16.48.19:210][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.48.19:293][380]LogTemp: Repeating last play command: VR Preview
+[2020.03.25-16.48.19:308][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.25-16.48.19:308][380]PIE: New page: PIE session: Untitled_1 (Mar 25, 2020, 4:48:19 AM)
+[2020.03.25-16.48.19:308][380]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.03.25-16.48.19:311][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002557s)
+[2020.03.25-16.48.19:312][380]LogAIModule: Creating AISystem for world Untitled_1
+[2020.03.25-16.48.19:312][380]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2020.03.25-16.48.19:312][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003276s)
+[2020.03.25-16.48.19:437][380]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.25-16.48.19:446][380]LogInit: FAudioDevice initialized.
+[2020.03.25-16.48.19:458][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.48.19:527][380]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2020.03.25-16.48.19:527][380]LogLoad: Game class is 'GameModeBase'
+[2020.03.25-16.48.19:529][380]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2020.03.25-10.48.19
+[2020.03.25-16.48.19:529][380]LogWorld: Bringing up level for play took: 0.001091
+[2020.03.25-16.48.19:546][380]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.489
+[2020.03.25-16.48.21:791][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.25-16.48.21:827][573]LogSlate: Window 'VrBingo Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.25-16.48.21:860][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.25-16.48.21:907][574]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.03.25-16.48.24:651][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.48.34:824][901]LogSlate: Window 'Save Level As' being destroyed
+[2020.03.25-16.48.34:828][901]LogSlate: FSceneViewport::OnFocusLost() reason 3
+[2020.03.25-16.48.35:012][901]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/VR_Bingo_Setup90D4EB5B4422DFE4D7F1E5949F5CF611.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup.umap'
+[2020.03.25-16.48.35:054][901]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/VR_Bingo_Setup_BuiltDataBE54016B4C4C4114FC7CD9AE2753E25C.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup_BuiltData.uasset'
+[2020.03.25-16.48.35:062][901]LogFileHelpers: Saving map 'VR_Bingo_Setup' took 0.232
+[2020.03.25-16.48.36:956][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.48.37:099][135]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/VR_Bingo_SetupFA77F10541537F805A5D30883EE54595.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup.umap'
+[2020.03.25-16.48.37:138][135]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/VR_Bingo_Setup_BuiltData451D137E4D95E6C7EBEBB1AA9844F768.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup_BuiltData.uasset'
+[2020.03.25-16.48.38:112][250]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.48.39:252][385]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.48.43:195][851]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.48.43:211][851]LightingResults: New page: Lighting Build
+[2020.03.25-16.48.43:211][851]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2020.03.25-16.48.43:212][851]MapCheck: New page: Map Check
+[2020.03.25-16.48.43:212][851]LightingResults: New page: Lighting Build
+[2020.03.25-16.48.43:281][851]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.03.25-16.48.43:290][851]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.48.43:349][851]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.48.43:457][851]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.378ms to complete.
+[2020.03.25-16.48.43:457][851]LogFileHelpers: Loading map 'MotionControllerMap' took 0.262
+[2020.03.25-16.48.43:458][851]LogSlate: Window 'Open Level' being destroyed
+[2020.03.25-16.48.50:457][677]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.48.52:927][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.48.53:048][978]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2020.03.25-16.48.53:472][978]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2020.03.25-16.48.54:206][978]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.25-16.48.54:383][979]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.25-16.49.06:341][872]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2020.03.25-16.49.06:345][872]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2020.03.25-16.49.15:288][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.49.29:673][623]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.49.29:687][623]LightingResults: New page: Lighting Build
+[2020.03.25-16.49.29:688][623]LoadErrors: New page: Loading map: VR_Bingo_Setup.umap
+[2020.03.25-16.49.29:712][623]MapCheck: New page: Map Check
+[2020.03.25-16.49.29:713][623]LightingResults: New page: Lighting Build
+[2020.03.25-16.49.29:762][623]LogAIModule: Creating AISystem for world VR_Bingo_Setup
+[2020.03.25-16.49.29:767][623]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.49.29:825][623]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.49.29:935][623]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 110.44ms to complete.
+[2020.03.25-16.49.29:935][623]LogFileHelpers: Loading map 'VR_Bingo_Setup' took 0.263
+[2020.03.25-16.49.29:937][623]LogSlate: Window 'Open Level' being destroyed
+[2020.03.25-16.49.33:132][999]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2020.03.25-16.49.45:466][240]Cmd: DELETE
+[2020.03.25-16.49.45:466][240]Cmd: ACTOR DELETE
+[2020.03.25-16.49.45:468][240]LogEditorActor: Deleted Actor: HMDLocomotionPawn_C
+[2020.03.25-16.49.45:534][240]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2020.03.25-16.49.48:282][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.49.51:679][943]Cmd: DELETE
+[2020.03.25-16.49.51:679][943]Cmd: ACTOR DELETE
+[2020.03.25-16.49.51:682][943]LogEditorActor: Deleted Actor: BP_MotionController_C
+[2020.03.25-16.49.51:717][943]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2020.03.25-16.49.54:478][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.49.58:698][768]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2020.03.25-16.50.13:860][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.50.44:431][ 34]LogSlate: Window 'Save Content' being destroyed
+[2020.03.25-16.50.44:628][ 34]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/VR_Bingo_Setup5870760E430BC663F083538033242DF6.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/VR_Bingo_Setup.umap'
+[2020.03.25-16.50.44:658][ 34]LogFileHelpers: Saving map 'VR_Bingo_Setup' took 0.207
+[2020.03.25-16.50.44:661][ 34]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-16.50.44:674][ 34]LightingResults: New page: Lighting Build
+[2020.03.25-16.50.44:674][ 34]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2020.03.25-16.50.44:675][ 34]MapCheck: New page: Map Check
+[2020.03.25-16.50.44:675][ 34]LightingResults: New page: Lighting Build
+[2020.03.25-16.50.44:747][ 34]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.03.25-16.50.44:817][ 34]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-16.50.44:882][ 34]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-16.50.44:994][ 34]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111.626ms to complete.
+[2020.03.25-16.50.44:994][ 34]LogFileHelpers: Loading map 'MotionControllerMap' took 0.333
+[2020.03.25-16.50.44:997][ 34]LogSlate: Window 'Open Level' being destroyed
+[2020.03.25-16.51.12:632][318]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.51.16:479][768]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.51.21:218][327]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.51.21:996][415]LogEditorViewport: Clicking on Actor (context menu): MotionControllerPawn_C (VRPawn)
+[2020.03.25-16.51.22:016][415]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-16.51.35:071][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.51.35:409][934]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/MotionControllerMap03B414644E5756EBA74123B37179658C.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2020.03.25-16.51.35:576][934]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/MotionControllerMap_BuiltData9A89E2E4403F2D802137E2BBD87164C3.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2020.03.25-16.51.45:866][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.25-16.51.59:040][721]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/PickupActorInterface.PickupActorInterface
+[2020.03.25-18.09.10:033][572]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2020.03.25-18.09.10:038][572]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2020.03.25-18.09.23:726][172]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-18.09.24:690][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-18.09.27:928][284]LogSlate: Window 'Save Level As' being destroyed
+[2020.03.25-18.09.27:933][284]LogSlate: FSceneViewport::OnFocusLost() reason 3
+[2020.03.25-18.09.28:320][284]LogAIModule: Creating AISystem for world Hijacked
+[2020.03.25-18.09.28:579][284]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/Hijacked79B2AA6741DF1AF75D8BDFA87EAC9FF7.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/Hijacked.umap'
+[2020.03.25-18.09.28:665][284]LogSavePackage: Moving '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Saved/Hijacked_BuiltDataFEB2CA0F4AB57869D88D26BD3CF61376.tmp' to '../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/Hijacked_BuiltData.uasset'
+[2020.03.25-18.09.28:673][284]LogFileHelpers: Saving map 'Hijacked' took 0.739
+[2020.03.25-18.09.28:674][284]Cmd: MAP LOAD FILE="../../../../../../Users/owner/Documents/GitHub/VR-Bingo/VrBingo/Content/VirtualRealityBP/Maps/Hijacked.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.25-18.09.28:682][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.25-18.09.28:687][284]LightingResults: New page: Lighting Build
+[2020.03.25-18.09.28:687][284]LoadErrors: New page: Loading map: Hijacked.umap
+[2020.03.25-18.09.28:688][284]MapCheck: New page: Map Check
+[2020.03.25-18.09.28:688][284]LightingResults: New page: Lighting Build
+[2020.03.25-18.09.28:785][284]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.25-18.09.28:847][284]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.25-18.09.28:957][284]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109.969ms to complete.
+[2020.03.25-18.09.28:957][284]LogFileHelpers: Loading map 'Hijacked' took 0.283
+[2020.03.25-18.09.49:791][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
