@@ -13,3 +13,4 @@ Health Assessment https://integrationacademy.ahrq.gov/sites/default/files/HAQ-DI
 
 ## Checkpoint 3 Videos
 Bingo Ball Callouts: https://youtu.be/Mm2KePLH7QE
+Checkpoint 3 Video: https://youtu.be/BBJ0QAqZICc
