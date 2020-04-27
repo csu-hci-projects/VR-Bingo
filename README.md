@@ -7,9 +7,8 @@ Checkpoint 2:
 https://youtu.be/wsqBdg6uVcI
 
 ## Survey links
-VR attitudes survey https://docs.google.com/forms/d/e/1FAIpQLSeys3AMtdNWrNaKKluV9VLDfMgY_yL4QSLdlbJhj7ztoJcqAw/viewform?usp=sf_link
-Ease of use survey https://docs.google.com/forms/d/e/1FAIpQLSfbBZl0v73GeF_UmjTKICGaMqgaItIF1VUER8y6iy1DaADx2g/viewform?usp=sf_link
-Health Assessment https://integrationacademy.ahrq.gov/sites/default/files/HAQ-DI_0.pdf
+VR attitudes survey Pre https://forms.gle/ShDJxLJyeJZbnYRQ9 Post https://forms.gle/WDCqj9dUs58vqSfU6
+Ease of use survey Pre https://forms.gle/NKu2yGqiM8X3SEse8 Post https://forms.gle/KuF9LSXAuyF5QZAW6
 
 ## Checkpoint 3 Videos
 Bingo Ball Callouts: https://youtu.be/Mm2KePLH7QE
