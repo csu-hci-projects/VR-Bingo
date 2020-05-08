@@ -1,6 +1,6 @@
 # VR-Bingo
 <b>Link to group's LaTex file</b> https://www.overleaf.com/9563749221wmzmnmxctdpx
-
+<b>Link to group's website</b> https://www.cs.colostate.edu/~demuthtc/#/
 
 ## Checkpoint 2 Video
 Checkpoint 2:
@@ -20,3 +20,4 @@ Bingo Game Experiment Video: https://youtu.be/_xR2fUV9p8I
 
 ## Checkpoint 5 Videos
 Checkpoint 5, High level explanation: https://youtu.be/TvxU-jcamfM
+Checkpoint 5, full explanation: https://youtu.be/YiGkPPvIHds
