@@ -17,3 +17,6 @@ Checkpoint 3 Video: https://youtu.be/BBJ0QAqZICc
 ## Checkpoint 4 Videos
 Checkpoint 4: Video https://youtu.be/pMHIIynl-Pc
 Bingo Game Experiment Video: https://youtu.be/_xR2fUV9p8I
+
+## Checkpoint 5 Videos
+Checkpoint 5, High level explanation: https://youtu.be/TvxU-jcamfM
